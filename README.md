@@ -1,10 +1,10 @@
 # Abstract
 
-Archaeological data as pulled from the Labvoratory of Spatial Archaeology; used for in-progress population estimations by Confoederatio. The original data portal these files were pulled from is available here: https://archaeolog.ru/oanmap/.
+Archaeological data as pulled from the Laboratory of Spatial Archaeology; used for in-progress population estimations by Confoederatio. The original data portal these files were pulled from is available here: https://archaeolog.ru/oanmap/.
 
 # Periodization
 
-| # | File Prefix & epoch_id | Russian/English Label (name_ru) | English Name | Core IA RAS Date Range | Regional / Extended Span | True Sites |
+| # | File Prefix & epoch_id | Russian / English Name | Core IA RAS Date Range | Regional / Extended Span | True Sites |
 | :---: | :--- | :--- | :--- | :--- | ---: |
 | 01 | 01_stone_age_e52 | Каменный Век; Stone Age | c. 2,6M – 3000 BC | To c. 2000–1500 BC in northern taiga & Siberia | 6 221 |
 | 02 | 02_eneolithic_e13 | Энеолит; Eneolithic (Copper Age) | c. 4500 – 3000 BC | c. 3500 – 2000 BC in forest-steppe, Urals & W. Siberia | 1 026 |
