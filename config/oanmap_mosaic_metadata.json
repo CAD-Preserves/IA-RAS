@@ -1,0 +1,506 @@
+{
+  "all_site_types_selected": true,
+  "api_base_url": "https://archaeolog.ru/api/map",
+  "crs": "EPSG:3857 (Spherical Web Mercator, continuous unwrapped across 180E antimeridian)",
+  "extracted_at_utc": "2026-11-07T17:37:40.868Z",
+  "georeference": {
+    "epsg_3857_meters": {
+      "pixel_size_m": 611.49622628141,
+      "x_max": 21289852.61421357,
+      "x_min": 1878516.4071364915,
+      "y_max": 12523442.714243278,
+      "y_min": 4696291.017841229
+    },
+    "global_web_mercator_px": {
+      "global_size_px": 65536,
+      "origin_global_px_x": 35840,
+      "origin_global_px_y": 12288
+    },
+    "wgs84_degrees": {
+      "lat_north": 74.01954331150228,
+      "lat_south": 38.82259097617711,
+      "lon_east_unwrapped": 191.25,
+      "lon_east_wrapped": -168.75,
+      "lon_west": 16.875
+    }
+  },
+  "grouping_mode": "t",
+  "mosaic_dimensions": {
+    "height_px": 12800,
+    "max_tile_y": 48,
+    "max_unwrapped_x": 131,
+    "min_tile_y": 24,
+    "min_unwrapped_x": 70,
+    "tile_cols": 62,
+    "tile_rows": 25,
+    "width_px": 31744
+  },
+  "observed_marker_tile_bounds": {
+    "max_tile_y": 47,
+    "max_unwrapped_x": 130,
+    "min_tile_y": 25,
+    "min_unwrapped_x": 71
+  },
+  "period_mosaics": [
+    {
+      "active_marker_tiles": 348,
+      "dilated_tiles_fetched": 792,
+      "elapsed_seconds": 68.01,
+      "epoch_id": 52,
+      "file_size_bytes": 4900549,
+      "filename": "01_stone_age_e52.png",
+      "key": "stone_age",
+      "marker_clusters_count": 1814,
+      "name_en": "Stone Age",
+      "name_ru": "Каменный Век",
+      "non_empty_png_tiles": 367,
+      "output_path": "F:\\Active Projects\\Project 1509 - SVEA\\histmap\\1.data_raw\\sites_IA_RAS\\images\\01_stone_age_e52.png",
+      "site_records_sum": 26403
+    },
+    {
+      "active_marker_tiles": 321,
+      "dilated_tiles_fetched": 731,
+      "elapsed_seconds": 67.7,
+      "epoch_id": 13,
+      "file_size_bytes": 4511833,
+      "filename": "02_eneolithic_e13.png",
+      "key": "eneolithic",
+      "marker_clusters_count": 1657,
+      "name_en": "Eneolithic",
+      "name_ru": "Энеолит",
+      "non_empty_png_tiles": 336,
+      "output_path": "F:\\Active Projects\\Project 1509 - SVEA\\histmap\\1.data_raw\\sites_IA_RAS\\images\\02_eneolithic_e13.png",
+      "site_records_sum": 21224
+    },
+    {
+      "active_marker_tiles": 320,
+      "dilated_tiles_fetched": 731,
+      "elapsed_seconds": 69.49,
+      "epoch_id": 22,
+      "file_size_bytes": 4477004,
+      "filename": "03_palaeometal_e22.png",
+      "key": "palaeometal",
+      "marker_clusters_count": 1649,
+      "name_en": "Palaeometal Period",
+      "name_ru": "Палеометалл",
+      "non_empty_png_tiles": 335,
+      "output_path": "F:\\Active Projects\\Project 1509 - SVEA\\histmap\\1.data_raw\\sites_IA_RAS\\images\\03_palaeometal_e22.png",
+      "site_records_sum": 20590
+    },
+    {
+      "active_marker_tiles": 320,
+      "dilated_tiles_fetched": 734,
+      "elapsed_seconds": 75.19,
+      "epoch_id": 21,
+      "file_size_bytes": 4460361,
+      "filename": "04_early_metal_age_e21.png",
+      "key": "early_metal_age",
+      "marker_clusters_count": 1640,
+      "name_en": "Early Metal Age",
+      "name_ru": "Эпоха Раннего Металла",
+      "non_empty_png_tiles": 336,
+      "output_path": "F:\\Active Projects\\Project 1509 - SVEA\\histmap\\1.data_raw\\sites_IA_RAS\\images\\04_early_metal_age_e21.png",
+      "site_records_sum": 20337
+    },
+    {
+      "active_marker_tiles": 331,
+      "dilated_tiles_fetched": 744,
+      "elapsed_seconds": 68.94,
+      "epoch_id": 47,
+      "file_size_bytes": 4916206,
+      "filename": "05_bronze_age_e47.png",
+      "key": "bronze_age",
+      "marker_clusters_count": 1813,
+      "name_en": "Bronze Age",
+      "name_ru": "Бронзовый Век",
+      "non_empty_png_tiles": 347,
+      "output_path": "F:\\Active Projects\\Project 1509 - SVEA\\histmap\\1.data_raw\\sites_IA_RAS\\images\\05_bronze_age_e47.png",
+      "site_records_sum": 29721
+    },
+    {
+      "active_marker_tiles": 328,
+      "dilated_tiles_fetched": 744,
+      "elapsed_seconds": 71.87,
+      "epoch_id": 36,
+      "file_size_bytes": 4861997,
+      "filename": "06_iron_age_e36.png",
+      "key": "iron_age",
+      "marker_clusters_count": 1803,
+      "name_en": "Iron Age",
+      "name_ru": "Железный век",
+      "non_empty_png_tiles": 346,
+      "output_path": "F:\\Active Projects\\Project 1509 - SVEA\\histmap\\1.data_raw\\sites_IA_RAS\\images\\06_iron_age_e36.png",
+      "site_records_sum": 29231
+    },
+    {
+      "active_marker_tiles": 317,
+      "dilated_tiles_fetched": 728,
+      "elapsed_seconds": 68.33,
+      "epoch_id": 6,
+      "file_size_bytes": 4464185,
+      "filename": "07_classical_antiquity_e6.png",
+      "key": "classical_antiquity",
+      "marker_clusters_count": 1639,
+      "name_en": "Classical Antiquity",
+      "name_ru": "Античное Время",
+      "non_empty_png_tiles": 332,
+      "output_path": "F:\\Active Projects\\Project 1509 - SVEA\\histmap\\1.data_raw\\sites_IA_RAS\\images\\07_classical_antiquity_e6.png",
+      "site_records_sum": 21003
+    },
+    {
+      "active_marker_tiles": 317,
+      "dilated_tiles_fetched": 728,
+      "elapsed_seconds": 75.09,
+      "epoch_id": 34,
+      "file_size_bytes": 4451449,
+      "filename": "08_migration_period_e34.png",
+      "key": "migration_period",
+      "marker_clusters_count": 1636,
+      "name_en": "Migration Period",
+      "name_ru": "Эпоха Великого переселения народов",
+      "non_empty_png_tiles": 332,
+      "output_path": "F:\\Active Projects\\Project 1509 - SVEA\\histmap\\1.data_raw\\sites_IA_RAS\\images\\08_migration_period_e34.png",
+      "site_records_sum": 20215
+    },
+    {
+      "active_marker_tiles": 332,
+      "dilated_tiles_fetched": 768,
+      "elapsed_seconds": 71.19,
+      "epoch_id": 37,
+      "file_size_bytes": 5123365,
+      "filename": "09_middle_ages_e37.png",
+      "key": "middle_ages",
+      "marker_clusters_count": 1903,
+      "name_en": "Middle Ages",
+      "name_ru": "Эпоха Средневековья",
+      "non_empty_png_tiles": 351,
+      "output_path": "F:\\Active Projects\\Project 1509 - SVEA\\histmap\\1.data_raw\\sites_IA_RAS\\images\\09_middle_ages_e37.png",
+      "site_records_sum": 34822
+    },
+    {
+      "active_marker_tiles": 325,
+      "dilated_tiles_fetched": 753,
+      "elapsed_seconds": 75.54,
+      "epoch_id": 3,
+      "file_size_bytes": 4748321,
+      "filename": "10_early_modern_17_18c_e3.png",
+      "key": "early_modern_17_18c",
+      "marker_clusters_count": 1778,
+      "name_en": "Early Modern Period (17th–18th c.)",
+      "name_ru": "Новое Время (17-18 вв.)",
+      "non_empty_png_tiles": 340,
+      "output_path": "F:\\Active Projects\\Project 1509 - SVEA\\histmap\\1.data_raw\\sites_IA_RAS\\images\\10_early_modern_17_18c_e3.png",
+      "site_records_sum": 23664
+    },
+    {
+      "active_marker_tiles": 322,
+      "dilated_tiles_fetched": 744,
+      "elapsed_seconds": 70.83,
+      "epoch_id": 18,
+      "file_size_bytes": 4607568,
+      "filename": "11_modern_e18.png",
+      "key": "modern",
+      "marker_clusters_count": 1717,
+      "name_en": "Contemporary Period",
+      "name_ru": "Новейшее время",
+      "non_empty_png_tiles": 337,
+      "output_path": "F:\\Active Projects\\Project 1509 - SVEA\\histmap\\1.data_raw\\sites_IA_RAS\\images\\11_modern_e18.png",
+      "site_records_sum": 21529
+    },
+    {
+      "active_marker_tiles": 317,
+      "dilated_tiles_fetched": 728,
+      "elapsed_seconds": 76.63,
+      "epoch_id": -1,
+      "file_size_bytes": 4449092,
+      "filename": "12_unspecified_e_neg1.png",
+      "key": "unspecified",
+      "marker_clusters_count": 1635,
+      "name_en": "Unspecified Period",
+      "name_ru": "Не указано",
+      "non_empty_png_tiles": 332,
+      "output_path": "F:\\Active Projects\\Project 1509 - SVEA\\histmap\\1.data_raw\\sites_IA_RAS\\images\\12_unspecified_e_neg1.png",
+      "site_records_sum": 20205
+    }
+  ],
+  "site_types_dictionary": [
+    {
+      "colour_hex": "97a100",
+      "id": 393,
+      "name_ru": "городище"
+    },
+    {
+      "colour_hex": "1b8903",
+      "id": 394,
+      "name_ru": "стоянка"
+    },
+    {
+      "colour_hex": null,
+      "id": 395,
+      "name_ru": "грунтовый могильник"
+    },
+    {
+      "colour_hex": "82cdff",
+      "id": 396,
+      "name_ru": "курганный могильник"
+    },
+    {
+      "colour_hex": "ed4543",
+      "id": 397,
+      "name_ru": "селище"
+    },
+    {
+      "colour_hex": "177bc9",
+      "id": 398,
+      "name_ru": "поселение"
+    },
+    {
+      "colour_hex": "ed4543",
+      "id": 399,
+      "name_ru": "некрополь"
+    },
+    {
+      "colour_hex": "177bc9",
+      "id": 400,
+      "name_ru": "городское поселение"
+    },
+    {
+      "colour_hex": "82cdff",
+      "id": 401,
+      "name_ru": "пещерная стоянка"
+    },
+    {
+      "colour_hex": "97a100",
+      "id": 402,
+      "name_ru": "грот"
+    },
+    {
+      "colour_hex": "b51eff",
+      "id": 440,
+      "name_ru": "местонахождение"
+    },
+    {
+      "colour_hex": "f371d1",
+      "id": 441,
+      "name_ru": "объект военных действий"
+    },
+    {
+      "colour_hex": "ffd21e",
+      "id": 444,
+      "name_ru": "курган"
+    },
+    {
+      "colour_hex": "f371d1",
+      "id": 445,
+      "name_ru": "курганная группа"
+    },
+    {
+      "colour_hex": "1bad03",
+      "id": 446,
+      "name_ru": "усадьба"
+    },
+    {
+      "colour_hex": "ed4543",
+      "id": 461,
+      "name_ru": "курганный могильник с каменным"
+    },
+    {
+      "colour_hex": "1bad03",
+      "id": 462,
+      "name_ru": "могильник с каменными конструк"
+    },
+    {
+      "colour_hex": "f371d1",
+      "id": 485,
+      "name_ru": "производственный комплекс"
+    },
+    {
+      "colour_hex": "82cdff",
+      "id": 486,
+      "name_ru": "укрепление"
+    },
+    {
+      "colour_hex": "97a100",
+      "id": 487,
+      "name_ru": "монастырь"
+    },
+    {
+      "colour_hex": "177bc9",
+      "id": 488,
+      "name_ru": "наскальные изображения"
+    },
+    {
+      "colour_hex": "ffd21e",
+      "id": 489,
+      "name_ru": "мегалитические сооружения"
+    },
+    {
+      "colour_hex": "82cdff",
+      "id": 490,
+      "name_ru": "храм"
+    },
+    {
+      "colour_hex": "ed4543",
+      "id": 491,
+      "name_ru": "культовое сооружение"
+    },
+    {
+      "colour_hex": "97a100",
+      "id": 492,
+      "name_ru": "промысловый комплекс"
+    },
+    {
+      "colour_hex": "56db40",
+      "id": 493,
+      "name_ru": "одиночный курган"
+    },
+    {
+      "colour_hex": null,
+      "id": 495,
+      "name_ru": "клад"
+    },
+    {
+      "colour_hex": "1bad03",
+      "id": 513,
+      "name_ru": "подводные исследования"
+    },
+    {
+      "colour_hex": "f371d1",
+      "id": 514,
+      "name_ru": "археологический комплекс"
+    },
+    {
+      "colour_hex": "b51eff",
+      "id": 517,
+      "name_ru": "погребально-поминальный компле"
+    },
+    {
+      "colour_hex": "177bc9",
+      "id": 518,
+      "name_ru": "пещера"
+    },
+    {
+      "colour_hex": "ed4543",
+      "id": 520,
+      "name_ru": "погребение"
+    },
+    {
+      "colour_hex": "177bc9",
+      "id": 521,
+      "name_ru": "археологический памятник"
+    },
+    {
+      "colour_hex": "b51eff",
+      "id": 522,
+      "name_ru": "дольменный могильник"
+    },
+    {
+      "colour_hex": "ffd21e",
+      "id": 523,
+      "name_ru": "впадина"
+    },
+    {
+      "colour_hex": "1bad03",
+      "id": 524,
+      "name_ru": "группа впадин"
+    },
+    {
+      "colour_hex": "f371d1",
+      "id": 525,
+      "name_ru": "каменная ограда"
+    },
+    {
+      "colour_hex": "56db40",
+      "id": 526,
+      "name_ru": "древние горные выработки"
+    },
+    {
+      "colour_hex": "82cdff",
+      "id": 527,
+      "name_ru": "крепость"
+    },
+    {
+      "colour_hex": "97a100",
+      "id": 528,
+      "name_ru": "одиночное грунтовое погребение"
+    },
+    {
+      "colour_hex": "ffd21e",
+      "id": 529,
+      "name_ru": "стойбище"
+    },
+    {
+      "colour_hex": "177bc9",
+      "id": 530,
+      "name_ru": "кладбище"
+    },
+    {
+      "colour_hex": "f371d1",
+      "id": 531,
+      "name_ru": "сопки"
+    },
+    {
+      "colour_hex": "82cdff",
+      "id": 532,
+      "name_ru": "жальник"
+    },
+    {
+      "colour_hex": "ed4543",
+      "id": 533,
+      "name_ru": "ловчая яма"
+    },
+    {
+      "colour_hex": "b51eff",
+      "id": 534,
+      "name_ru": "постройка"
+    },
+    {
+      "colour_hex": "1bad03",
+      "id": 2813,
+      "name_ru": "каменные изваяния"
+    },
+    {
+      "colour_hex": "97a100",
+      "id": 2825,
+      "name_ru": "городская застройка"
+    },
+    {
+      "colour_hex": "56db40",
+      "id": 2826,
+      "name_ru": "склеп"
+    },
+    {
+      "colour_hex": null,
+      "id": 2827,
+      "name_ru": "гидротехнические сооружения"
+    },
+    {
+      "colour_hex": "f371d1",
+      "id": 2831,
+      "name_ru": "кочевье"
+    },
+    {
+      "colour_hex": "ed4543",
+      "id": 2832,
+      "name_ru": "сопка"
+    },
+    {
+      "colour_hex": "1bad03",
+      "id": 2833,
+      "name_ru": "скальный могильник"
+    },
+    {
+      "colour_hex": "177bc9",
+      "id": 2846,
+      "name_ru": "могильник"
+    },
+    {
+      "colour_hex": "82cdff",
+      "id": 2851,
+      "name_ru": "катакомбный могильник"
+    }
+  ],
+  "source_url": "https://archaeolog.ru/oanmap/",
+  "tile_size_px": 512,
+  "zoom_level": 8
+}

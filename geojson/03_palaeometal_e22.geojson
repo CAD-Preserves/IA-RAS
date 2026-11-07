@@ -1,0 +1,3105 @@
+{
+  "type": "FeatureCollection",
+  "name": "sites_ia_ras_palaeometal",
+  "metadata": {
+    "all_site_types_selected": true,
+    "crs": "EPSG:4326 (WGS84 [longitude, latitude])",
+    "epoch_id": 22,
+    "extracted_at_utc": "2026-11-07T17:48:20.165Z",
+    "feature_count": 84,
+    "oblasts_with_sites_count": 23,
+    "period_key": "palaeometal",
+    "period_name_en": "Palaeometal Period",
+    "period_name_ru": "Палеометалл",
+    "source_url": "https://archaeolog.ru/oanmap/",
+    "total_sites_count": 386
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.399399,
+          59.951799
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 3,
+          "грунтовый могильник": 3,
+          "поселение": 21,
+          "местонахождение": 3,
+          "производственный комплекс": 1,
+          "культовое сооружение": 1,
+          "стойбище": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 153.399399,
+        "name_ru": "Магаданская область, Ольский городской округ",
+        "oblast_id": 1515,
+        "oblast_name_ru": "Магаданская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 1517,
+        "site_count": 1,
+        "total_sites_all_periods": 35,
+        "unspecified_period_sites": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.258716,
+          64.436325
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 9,
+          "местонахождение": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": true,
+        "lon_unwrapped": 128.258716,
+        "name_ru": "Республика Саха (Якутия) (без уточнения)",
+        "oblast_id": 3004,
+        "oblast_name_ru": "Республика Саха (Якутия)",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 330,
+        "site_count": 1,
+        "total_sites_all_periods": 12,
+        "unspecified_period_sites": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.732178,
+          62.027216
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 20,
+          "поселение": 10,
+          "городское поселение": 1,
+          "местонахождение": 1,
+          "погребение": 3,
+          "археологический памятник": 3,
+          "одиночное грунтовое погребение": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 129.732178,
+        "name_ru": "Республика Саха (Якутия), Якутск",
+        "oblast_id": 3004,
+        "oblast_name_ru": "Республика Саха (Якутия)",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 331,
+        "site_count": 4,
+        "total_sites_all_periods": 39,
+        "unspecified_period_sites": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.154574,
+          64.363213
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 6
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 122.154574,
+        "name_ru": "Республика Саха (Якутия), муниципальный район Вилюйский улус",
+        "oblast_id": 3004,
+        "oblast_name_ru": "Республика Саха (Якутия)",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 340,
+        "site_count": 1,
+        "total_sites_all_periods": 6,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.571267,
+          61.749365
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 12,
+          "погребение": 12,
+          "археологический памятник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 130.571267,
+        "name_ru": "Республика Саха (Якутия), муниципальный район Мегино-Кангаласский улус",
+        "oblast_id": 3004,
+        "oblast_name_ru": "Республика Саха (Якутия)",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 345,
+        "site_count": 1,
+        "total_sites_all_periods": 26,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.26121,
+          62.659842
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 133.26121,
+        "name_ru": "Республика Саха (Якутия), Таттинский улус",
+        "oblast_id": 3004,
+        "oblast_name_ru": "Республика Саха (Якутия)",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 359,
+        "site_count": 1,
+        "total_sites_all_periods": 1,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.849215,
+          61.374779
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 1,
+          "поселение": 1,
+          "производственный комплекс": 3,
+          "погребение": 3,
+          "одиночное грунтовое погребение": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 128.849215,
+        "name_ru": "Республика Саха (Якутия), муниципальный район Хангаласский улус",
+        "oblast_id": 3004,
+        "oblast_name_ru": "Республика Саха (Якутия)",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 364,
+        "site_count": 1,
+        "total_sites_all_periods": 10,
+        "unspecified_period_sites": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.063073,
+          61.982792
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 132.063073,
+        "name_ru": "Республика Саха (Якутия), муниципальный район Чурапчинский улус",
+        "oblast_id": 3004,
+        "oblast_name_ru": "Республика Саха (Якутия)",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 365,
+        "site_count": 1,
+        "total_sites_all_periods": 2,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.325878,
+          64.207416
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "поселение": 8
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 117.325878,
+        "name_ru": "Республика Саха (Якутия), Нюрбинский муниципальный район",
+        "oblast_id": 3004,
+        "oblast_name_ru": "Республика Саха (Якутия)",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 3025,
+        "site_count": 1,
+        "total_sites_all_periods": 10,
+        "unspecified_period_sites": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.473211,
+          44.09372
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 1,
+          "поселение": 2,
+          "пещера": 1,
+          "археологический памятник": 4,
+          "сопка": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": true,
+        "lon_unwrapped": 133.473211,
+        "name_ru": "Приморский край (без уточнения)",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 739,
+        "site_count": 4,
+        "total_sites_all_periods": 9,
+        "unspecified_period_sites": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.885485,
+          43.115536
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 2,
+          "поселение": 13,
+          "археологический памятник": 24
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 131.885485,
+        "name_ru": "Приморский край, Владивосток",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 740,
+        "site_count": 1,
+        "total_sites_all_periods": 40,
+        "unspecified_period_sites": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.18033,
+          43.353047
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 4,
+          "курганный могильник": 1,
+          "поселение": 7,
+          "курган": 3,
+          "курганная группа": 1,
+          "археологический памятник": 6,
+          "сопка": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 132.18033,
+        "name_ru": "Приморский край, Артём",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 741,
+        "site_count": 3,
+        "total_sites_all_periods": 23,
+        "unspecified_period_sites": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.350336,
+          43.111725
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 3,
+          "селище": 1,
+          "поселение": 5,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 132.350336,
+        "name_ru": "Приморский край, Большой Камень",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 745,
+        "site_count": 1,
+        "total_sites_all_periods": 10,
+        "unspecified_period_sites": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.952113,
+          43.79724
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 5,
+          "стоянка": 2,
+          "поселение": 9,
+          "одиночный курган": 1,
+          "археологический памятник": 1,
+          "постройка": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 131.952113,
+        "name_ru": "Приморский край, Уссурийск",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 748,
+        "site_count": 2,
+        "total_sites_all_periods": 19,
+        "unspecified_period_sites": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.418594,
+          45.477955
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "поселение": 7,
+          "археологический памятник": 5
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 133.418594,
+        "name_ru": "Приморский край, Лесозаводск",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 749,
+        "site_count": 6,
+        "total_sites_all_periods": 14,
+        "unspecified_period_sites": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.078295,
+          43.867816
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 3,
+          "поселение": 19,
+          "местонахождение": 1,
+          "археологический памятник": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 133.078295,
+        "name_ru": "Приморский край, Анучинский муниципальный округ",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 750,
+        "site_count": 3,
+        "total_sites_all_periods": 28,
+        "unspecified_period_sites": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.307522,
+          45.35684
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "поселение": 6,
+          "одиночный курган": 1,
+          "археологический памятник": 7
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 134.307522,
+        "name_ru": "Приморский край, Дальнереченский район",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 751,
+        "site_count": 8,
+        "total_sites_all_periods": 15,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.146693,
+          44.380415
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 24,
+          "поселение": 6,
+          "местонахождение": 1,
+          "производственный комплекс": 1,
+          "укрепление": 1,
+          "археологический памятник": 4
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 135.146693,
+        "name_ru": "Приморский край, Кавалеровский район",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 752,
+        "site_count": 1,
+        "total_sites_all_periods": 38,
+        "unspecified_period_sites": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.654914,
+          45.002346
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 6,
+          "поселение": 9,
+          "археологический памятник": 11
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 133.654914,
+        "name_ru": "Приморский край, Кировский район",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 753,
+        "site_count": 5,
+        "total_sites_all_periods": 26,
+        "unspecified_period_sites": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.893489,
+          43.084077
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 12,
+          "курганный могильник": 2,
+          "поселение": 36,
+          "местонахождение": 5,
+          "курганная группа": 1,
+          "укрепление": 5,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 133.893489,
+        "name_ru": "Приморский край, Лазовский муниципальный округ",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 755,
+        "site_count": 11,
+        "total_sites_all_periods": 63,
+        "unspecified_period_sites": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.338334,
+          43.991415
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 4,
+          "селище": 1,
+          "поселение": 7,
+          "одиночное грунтовое погребение": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 132.338334,
+        "name_ru": "Приморский край, Михайловский район",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 756,
+        "site_count": 1,
+        "total_sites_all_periods": 14,
+        "unspecified_period_sites": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.549362,
+          44.086078
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 1,
+          "поселение": 1,
+          "погребально-поминальный компле": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 131.549362,
+        "name_ru": "Приморский край, Октябрьский муниципальный округ",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 758,
+        "site_count": 1,
+        "total_sites_all_periods": 3,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.956735,
+          43.676645
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 3,
+          "стоянка": 11,
+          "поселение": 39,
+          "местонахождение": 1,
+          "курган": 1,
+          "укрепление": 3,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 134.956735,
+        "name_ru": "Приморский край, Ольгинский район",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 759,
+        "site_count": 2,
+        "total_sites_all_periods": 59,
+        "unspecified_period_sites": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.433803,
+          43.432844
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "стоянка": 8,
+          "курганный могильник": 1,
+          "селище": 1,
+          "поселение": 31,
+          "местонахождение": 5,
+          "курганная группа": 4,
+          "курганный могильник с каменным": 1,
+          "производственный комплекс": 1,
+          "храм": 1,
+          "археологический памятник": 21
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 133.433803,
+        "name_ru": "Приморский край, Партизанский район",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 760,
+        "site_count": 14,
+        "total_sites_all_periods": 78,
+        "unspecified_period_sites": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.906977,
+          44.754625
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 16,
+          "поселение": 36,
+          "археологический памятник": 4
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 132.906977,
+        "name_ru": "Приморский край, Спасский район",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 763,
+        "site_count": 19,
+        "total_sites_all_periods": 56,
+        "unspecified_period_sites": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.505435,
+          45.909527
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 3,
+          "поселение": 10,
+          "крепость": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 137.505435,
+        "name_ru": "Приморский край, Тернейский муниципальный округ",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 764,
+        "site_count": 9,
+        "total_sites_all_periods": 15,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.869028,
+          43.794501
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 1,
+          "селище": 4,
+          "поселение": 6,
+          "храм": 1,
+          "археологический памятник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 131.869028,
+        "name_ru": "Приморский край, Уссурийский городской округ",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 765,
+        "site_count": 2,
+        "total_sites_all_periods": 14,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.223786,
+          42.925831
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 37,
+          "поселение": 25,
+          "местонахождение": 1,
+          "курганный могильник с каменным": 1,
+          "культовое сооружение": 1,
+          "археологический памятник": 19,
+          "крепость": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 131.223786,
+        "name_ru": "Приморский край, Хасанский район",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 767,
+        "site_count": 4,
+        "total_sites_all_periods": 86,
+        "unspecified_period_sites": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.121787,
+          44.373064
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 6,
+          "грунтовый могильник": 1,
+          "поселение": 25
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 132.121787,
+        "name_ru": "Приморский край, Хорольский муниципальный округ",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 768,
+        "site_count": 8,
+        "total_sites_all_periods": 33,
+        "unspecified_period_sites": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.583206,
+          44.267627
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "поселение": 8,
+          "археологический памятник": 7
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 132.583206,
+        "name_ru": "Приморский край, Черниговский район",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 769,
+        "site_count": 4,
+        "total_sites_all_periods": 17,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.201566,
+          44.303938
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 4,
+          "грунтовый могильник": 1,
+          "поселение": 29,
+          "курган": 1,
+          "укрепление": 4,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 134.201566,
+        "name_ru": "Приморский край, Чугуевский муниципальный округ",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 770,
+        "site_count": 1,
+        "total_sites_all_periods": 42,
+        "unspecified_period_sites": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.574573,
+          43.372991
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 2,
+          "поселение": 7,
+          "археологический памятник": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 132.574573,
+        "name_ru": "Приморский край, Шкотовский район",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 771,
+        "site_count": 2,
+        "total_sites_all_periods": 14,
+        "unspecified_period_sites": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.543263,
+          44.433728
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "поселение": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 133.543263,
+        "name_ru": "Приморский край, Яковлевский район",
+        "oblast_id": 3413,
+        "oblast_name_ru": "Приморский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 772,
+        "site_count": 2,
+        "total_sites_all_periods": 3,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.607681,
+          49.684418
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "курганный могильник": 1,
+          "поселение": 1,
+          "археологический памятник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 135.607681,
+        "name_ru": "Хабаровский край, Амурский район",
+        "oblast_id": 3487,
+        "oblast_name_ru": "Хабаровский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 818,
+        "site_count": 1,
+        "total_sites_all_periods": 5,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.011294,
+          50.480337
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "поселение": 2,
+          "местонахождение": 6
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 138.011294,
+        "name_ru": "Хабаровский край, Комсомольский район",
+        "oblast_id": 3487,
+        "oblast_name_ru": "Хабаровский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 825,
+        "site_count": 1,
+        "total_sites_all_periods": 10,
+        "unspecified_period_sites": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.954148,
+          49.301662
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "грунтовый могильник": 2,
+          "курганный могильник": 2,
+          "селище": 7,
+          "поселение": 6,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 136.954148,
+        "name_ru": "Хабаровский край, Нанайский район",
+        "oblast_id": 3487,
+        "oblast_name_ru": "Хабаровский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 826,
+        "site_count": 7,
+        "total_sites_all_periods": 19,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.125955,
+          49.654217
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 5,
+          "грунтовый могильник": 1,
+          "курганный могильник": 1,
+          "селище": 2,
+          "поселение": 9,
+          "местонахождение": 3,
+          "наскальные изображения": 1,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 134.125955,
+        "name_ru": "Хабаровский край, Хабаровский район",
+        "oblast_id": 3487,
+        "oblast_name_ru": "Хабаровский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 831,
+        "site_count": 5,
+        "total_sites_all_periods": 23,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.363599,
+          53.857486
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 1,
+          "грунтовый могильник": 1,
+          "поселение": 1,
+          "городское поселение": 1,
+          "местонахождение": 2,
+          "наскальные изображения": 1,
+          "археологический памятник": 6
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 123.363599,
+        "name_ru": "Амурская область, Сковородинский район",
+        "oblast_id": 3506,
+        "oblast_name_ru": "Амурская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 3526,
+        "site_count": 1,
+        "total_sites_all_periods": 15,
+        "unspecified_period_sites": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.643503,
+          53.024259
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 3,
+          "поселение": 6,
+          "городское поселение": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 158.643503,
+        "name_ru": "Камчатский край, Петропавловск-Камчатский",
+        "oblast_id": 3951,
+        "oblast_name_ru": "Камчатский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 1278,
+        "site_count": 1,
+        "total_sites_all_periods": 10,
+        "unspecified_period_sites": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157.891586,
+          55.3891
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 5,
+          "местонахождение": 6
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 157.891586,
+        "name_ru": "Камчатский край, Быстринский район",
+        "oblast_id": 3951,
+        "oblast_name_ru": "Камчатский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 1279,
+        "site_count": 2,
+        "total_sites_all_periods": 11,
+        "unspecified_period_sites": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.727747,
+          57.647531
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 1,
+          "поселение": 1,
+          "местонахождение": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 158.727747,
+        "name_ru": "Камчатский край, Тигильский район",
+        "oblast_id": 3951,
+        "oblast_name_ru": "Камчатский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 1287,
+        "site_count": 2,
+        "total_sites_all_periods": 4,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.464195,
+          53.863136
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "поселение": 1,
+          "местонахождение": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 159.464195,
+        "name_ru": "Камчатский край, Елизовский район",
+        "oblast_id": 3951,
+        "oblast_name_ru": "Камчатский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 3954,
+        "site_count": 1,
+        "total_sites_all_periods": 4,
+        "unspecified_period_sites": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.955731,
+          49.060117
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 6,
+          "местонахождение": 1,
+          "курган": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": true,
+        "lon_unwrapped": 142.955731,
+        "name_ru": "Сахалинская область (без уточнения)",
+        "oblast_id": 4820,
+        "oblast_name_ru": "Сахалинская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 2146,
+        "site_count": 1,
+        "total_sites_all_periods": 8,
+        "unspecified_period_sites": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.904332,
+          46.453166
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "поселение": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 141.904332,
+        "name_ru": "Сахалинская область, Невельский городской округ",
+        "oblast_id": 4820,
+        "oblast_name_ru": "Сахалинская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 2157,
+        "site_count": 2,
+        "total_sites_all_periods": 5,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.014165,
+          51.528794
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 16,
+          "курганный могильник": 1,
+          "поселение": 94,
+          "курган": 2,
+          "археологический памятник": 5
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 143.014165,
+        "name_ru": "Сахалинская область, городской округ Ногликский",
+        "oblast_id": 4820,
+        "oblast_name_ru": "Сахалинская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 2158,
+        "site_count": 36,
+        "total_sites_all_periods": 118,
+        "unspecified_period_sites": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.000731,
+          44.261617
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 1,
+          "поселение": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 146.000731,
+        "name_ru": "Сахалинская область, Южно-Курильский городской округ",
+        "oblast_id": 4820,
+        "oblast_name_ru": "Сахалинская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 2173,
+        "site_count": 1,
+        "total_sites_all_periods": 4,
+        "unspecified_period_sites": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.256041,
+          46.582778
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "поселение": 8
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 142.256041,
+        "name_ru": "Сахалинская область, Анивский городской округ",
+        "oblast_id": 4820,
+        "oblast_name_ru": "Сахалинская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 4821,
+        "site_count": 1,
+        "total_sites_all_periods": 8,
+        "unspecified_period_sites": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.845286,
+          45.060357
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 6,
+          "поселение": 4
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 147.845286,
+        "name_ru": "Сахалинская область, Курильский городской округ",
+        "oblast_id": 4820,
+        "oblast_name_ru": "Сахалинская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 4827,
+        "site_count": 1,
+        "total_sites_all_periods": 10,
+        "unspecified_period_sites": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.597751,
+          48.51777
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "поселение": 7
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 142.597751,
+        "name_ru": "Сахалинская область, Макаровский городской округ",
+        "oblast_id": 4820,
+        "oblast_name_ru": "Сахалинская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 4829,
+        "site_count": 3,
+        "total_sites_all_periods": 9,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.457299,
+          53.208678
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 11,
+          "селище": 1,
+          "поселение": 13,
+          "археологический памятник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 142.457299,
+        "name_ru": "Сахалинская область, городской округ Охинский",
+        "oblast_id": 4820,
+        "oblast_name_ru": "Сахалинская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 4833,
+        "site_count": 7,
+        "total_sites_all_periods": 27,
+        "unspecified_period_sites": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.272027,
+          50.082987
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 16,
+          "поселение": 16
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 155.272027,
+        "name_ru": "Сахалинская область, Северо-Курильский городской округ",
+        "oblast_id": 4820,
+        "oblast_name_ru": "Сахалинская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 4837,
+        "site_count": 7,
+        "total_sites_all_periods": 32,
+        "unspecified_period_sites": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.287832,
+          48.153606
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "поселение": 4,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 142.287832,
+        "name_ru": "Сахалинская область, Томаринский городской округ",
+        "oblast_id": 4820,
+        "oblast_name_ru": "Сахалинская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 4840,
+        "site_count": 4,
+        "total_sites_all_periods": 5,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.231624,
+          47.192247
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "поселение": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 142.231624,
+        "name_ru": "Сахалинская область, Холмский городской округ",
+        "oblast_id": 4820,
+        "oblast_name_ru": "Сахалинская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 4845,
+        "site_count": 2,
+        "total_sites_all_periods": 3,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.825554,
+          48.446331
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "селище": 1,
+          "поселение": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 132.825554,
+        "name_ru": "Еврейская автономная область, Биробиджанский район",
+        "oblast_id": 5262,
+        "oblast_name_ru": "Еврейская автономная область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 2589,
+        "site_count": 1,
+        "total_sites_all_periods": 3,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.33925,
+          64.861088
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 16,
+          "курганный могильник": 2,
+          "поселение": 10,
+          "местонахождение": 11,
+          "курганный могильник с каменным": 1,
+          "археологический памятник": 2,
+          "крепость": 1,
+          "кладбище": 1,
+          "сопка": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 173.33925,
+        "name_ru": "Чукотский автономный округ, Анадырский район",
+        "oblast_id": 5294,
+        "oblast_name_ru": "Чукотский автономный округ",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 2628,
+        "site_count": 1,
+        "total_sites_all_periods": 46,
+        "unspecified_period_sites": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          163.785334,
+          67.200958
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 31,
+          "местонахождение": 16,
+          "одиночное грунтовое погребение": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 163.785334,
+        "name_ru": "Чукотский автономный округ, Билибинский район",
+        "oblast_id": 5294,
+        "oblast_name_ru": "Чукотский автономный округ",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 5295,
+        "site_count": 1,
+        "total_sites_all_periods": 49,
+        "unspecified_period_sites": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.479659,
+          56.275549
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 14,
+          "стоянка": 12,
+          "грунтовый могильник": 4,
+          "курганный могильник": 1,
+          "селище": 20,
+          "поселение": 10,
+          "некрополь": 4,
+          "местонахождение": 2,
+          "курган": 1,
+          "курганная группа": 1,
+          "культовое сооружение": 5,
+          "одиночный курган": 1,
+          "археологический комплекс": 2,
+          "погребально-поминальный компле": 1,
+          "кладбище": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000002,
+        "federal_district_name_ru": "Приволжский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 46.479659,
+        "name_ru": "Республика Марий Эл, Горномарийский район",
+        "oblast_id": 2958,
+        "oblast_name_ru": "Республика Марий Эл",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 289,
+        "site_count": 1,
+        "total_sites_all_periods": 79,
+        "unspecified_period_sites": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.729001,
+          57.787124
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 15,
+          "стоянка": 20,
+          "грунтовый могильник": 5,
+          "курганный могильник": 2,
+          "селище": 129,
+          "поселение": 36,
+          "одиночный курган": 1,
+          "археологический памятник": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000002,
+        "federal_district_name_ru": "Приволжский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 55.729001,
+        "name_ru": "Пермский край, Пермский район",
+        "oblast_id": 4552,
+        "oblast_name_ru": "Пермский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 1915,
+        "site_count": 1,
+        "total_sites_all_periods": 210,
+        "unspecified_period_sites": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.988857,
+          60.266246
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 5,
+          "стоянка": 6,
+          "селище": 2,
+          "поселение": 8,
+          "производственный комплекс": 1,
+          "наскальные изображения": 2,
+          "культовое сооружение": 2,
+          "могильник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000002,
+        "federal_district_name_ru": "Приволжский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 57.988857,
+        "name_ru": "Пермский край, Красновишерский городской округ",
+        "oblast_id": 4552,
+        "oblast_name_ru": "Пермский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 4577,
+        "site_count": 1,
+        "total_sites_all_periods": 28,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.117228,
+          61.724742
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 94,
+          "селище": 2,
+          "поселение": 3,
+          "местонахождение": 2,
+          "производственный комплекс": 4,
+          "мегалитические сооружения": 2,
+          "промысловый комплекс": 1,
+          "археологический памятник": 9,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 33.117228,
+        "name_ru": "Республика Карелия, Пряжинский район",
+        "oblast_id": 2912,
+        "oblast_name_ru": "Республика Карелия",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 257,
+        "site_count": 1,
+        "total_sites_all_periods": 118,
+        "unspecified_period_sites": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.122299,
+          65.279283
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 11,
+          "поселение": 1,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 34.122299,
+        "name_ru": "Республика Карелия, Кемский район",
+        "oblast_id": 2912,
+        "oblast_name_ru": "Республика Карелия",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 2919,
+        "site_count": 2,
+        "total_sites_all_periods": 13,
+        "unspecified_period_sites": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.494077,
+          64.892408
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 32,
+          "местонахождение": 28,
+          "производственный комплекс": 11,
+          "монастырь": 4,
+          "мегалитические сооружения": 2,
+          "храм": 1,
+          "культовое сооружение": 1,
+          "подводные исследования": 1,
+          "археологический памятник": 2,
+          "каменная ограда": 4,
+          "могильник": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 40.494077,
+        "name_ru": "Архангельская область, Приморский район",
+        "oblast_id": 3530,
+        "oblast_name_ru": "Архангельская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 860,
+        "site_count": 16,
+        "total_sites_all_periods": 89,
+        "unspecified_period_sites": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.94658,
+          59.83763
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "стоянка": 11,
+          "курганный могильник": 3,
+          "селище": 1,
+          "поселение": 32,
+          "курганная группа": 7,
+          "производственный комплекс": 2,
+          "одиночный курган": 7,
+          "археологический памятник": 12,
+          "могильник": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 35.94658,
+        "name_ru": "Вологодская область, Бабаевский район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 3735,
+        "site_count": 1,
+        "total_sites_all_periods": 82,
+        "unspecified_period_sites": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.261031,
+          59.967255
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "стоянка": 17,
+          "грунтовый могильник": 3,
+          "курганный могильник": 1,
+          "поселение": 56,
+          "городское поселение": 2,
+          "местонахождение": 5,
+          "курганная группа": 5,
+          "храм": 1,
+          "одиночный курган": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 37.261031,
+        "name_ru": "Вологодская область, Белозерский район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 3738,
+        "site_count": 1,
+        "total_sites_all_periods": 96,
+        "unspecified_period_sites": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.158694,
+          60.739939
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 13,
+          "курганный могильник": 1,
+          "поселение": 2,
+          "городское поселение": 1,
+          "местонахождение": 1,
+          "могильник с каменными конструк": 1,
+          "производственный комплекс": 19,
+          "подводные исследования": 13,
+          "археологический памятник": 4,
+          "группа впадин": 4,
+          "каменная ограда": 1,
+          "крепость": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 29.158694,
+        "name_ru": "Ленинградская область, Выборгский район",
+        "oblast_id": 4128,
+        "oblast_name_ru": "Ленинградская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 4138,
+        "site_count": 1,
+        "total_sites_all_periods": 61,
+        "unspecified_period_sites": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.935216,
+          50.735733
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 1,
+          "курганный могильник": 199,
+          "поселение": 4,
+          "некрополь": 1,
+          "пещерная стоянка": 1,
+          "грот": 2,
+          "местонахождение": 3,
+          "курган": 7,
+          "курганная группа": 60,
+          "курганный могильник с каменным": 20,
+          "укрепление": 1,
+          "наскальные изображения": 73,
+          "мегалитические сооружения": 2,
+          "культовое сооружение": 9,
+          "одиночный курган": 20,
+          "археологический комплекс": 2,
+          "погребально-поминальный компле": 2,
+          "пещера": 2,
+          "археологический памятник": 35,
+          "каменная ограда": 10,
+          "каменные изваяния": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 86.935216,
+        "name_ru": "Республика Алтай, Онгудайский район",
+        "oblast_id": 129,
+        "oblast_name_ru": "Республика Алтай",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 2808,
+        "site_count": 99,
+        "total_sites_all_periods": 455,
+        "unspecified_period_sites": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.289144,
+          52.060272
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "курганный могильник": 97,
+          "поселение": 2,
+          "курган": 1,
+          "курганная группа": 4,
+          "курганный могильник с каменным": 53,
+          "могильник с каменными конструк": 5,
+          "производственный комплекс": 1,
+          "укрепление": 1,
+          "культовое сооружение": 2,
+          "одиночный курган": 18,
+          "археологический комплекс": 1,
+          "археологический памятник": 7,
+          "могильник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 95.289144,
+        "name_ru": "Республика Тыва, Кызылский кожуун",
+        "oblast_id": 3117,
+        "oblast_name_ru": "Республика Тыва",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 451,
+        "site_count": 2,
+        "total_sites_all_periods": 195,
+        "unspecified_period_sites": 63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.712201,
+          50.894399
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 1,
+          "грунтовый могильник": 1,
+          "курганный могильник": 28,
+          "поселение": 1,
+          "местонахождение": 3,
+          "курганная группа": 1,
+          "курганный могильник с каменным": 8,
+          "наскальные изображения": 25,
+          "одиночный курган": 1,
+          "погребально-поминальный компле": 3,
+          "археологический памятник": 6,
+          "каменная ограда": 1,
+          "каменные изваяния": 1,
+          "могильник": 25
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 92.712201,
+        "name_ru": "Республика Тыва, Овюрский кожуун",
+        "oblast_id": 3117,
+        "oblast_name_ru": "Республика Тыва",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 453,
+        "site_count": 4,
+        "total_sites_all_periods": 105,
+        "unspecified_period_sites": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.617177,
+          51.144094
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "курганный могильник": 4,
+          "поселение": 1,
+          "городское поселение": 1,
+          "курганная группа": 1,
+          "курганный могильник с каменным": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 94.617177,
+        "name_ru": "Республика Тыва, Тандинский кожуун",
+        "oblast_id": 3117,
+        "oblast_name_ru": "Республика Тыва",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 457,
+        "site_count": 1,
+        "total_sites_all_periods": 13,
+        "unspecified_period_sites": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.905375,
+          51.425561
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 6,
+          "стоянка": 1,
+          "курганный могильник": 3,
+          "поселение": 1,
+          "курганная группа": 3,
+          "курганный могильник с каменным": 12,
+          "могильник с каменными конструк": 2,
+          "наскальные изображения": 2,
+          "одиночный курган": 6,
+          "пещера": 1,
+          "археологический памятник": 2,
+          "каменные изваяния": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 92.905375,
+        "name_ru": "Республика Тыва, Улуг-Хемский кожуун",
+        "oblast_id": 3117,
+        "oblast_name_ru": "Республика Тыва",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 3134,
+        "site_count": 7,
+        "total_sites_all_periods": 42,
+        "unspecified_period_sites": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.938764,
+          51.572047
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 1,
+          "курганный могильник": 9,
+          "поселение": 1,
+          "некрополь": 2,
+          "укрепление": 1,
+          "одиночный курган": 2,
+          "пещера": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 82.938764,
+        "name_ru": "Алтайский край, Краснощёковский район",
+        "oblast_id": 3237,
+        "oblast_name_ru": "Алтайский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 585,
+        "site_count": 2,
+        "total_sites_all_periods": 18,
+        "unspecified_period_sites": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.556577,
+          58.551356
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 25,
+          "грунтовый могильник": 2,
+          "поселение": 7,
+          "местонахождение": 3,
+          "наскальные изображения": 12,
+          "культовое сооружение": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 94.556577,
+        "name_ru": "Красноярский край, Мотыгинский район",
+        "oblast_id": 3353,
+        "oblast_name_ru": "Красноярский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 719,
+        "site_count": 1,
+        "total_sites_all_periods": 50,
+        "unspecified_period_sites": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.550316,
+          56.371276
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 26,
+          "курганный могильник": 2,
+          "поселение": 29,
+          "некрополь": 1,
+          "пещерная стоянка": 1,
+          "местонахождение": 11,
+          "курганная группа": 4,
+          "одиночный курган": 8
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 92.550316,
+        "name_ru": "Красноярский край, Емельяновский район",
+        "oblast_id": 3353,
+        "oblast_name_ru": "Красноярский край",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 3376,
+        "site_count": 1,
+        "total_sites_all_periods": 83,
+        "unspecified_period_sites": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.281047,
+          52.287054
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 16,
+          "грунтовый могильник": 1,
+          "поселение": 2,
+          "некрополь": 2,
+          "городское поселение": 3,
+          "местонахождение": 3,
+          "производственный комплекс": 1,
+          "монастырь": 1,
+          "культовое сооружение": 1,
+          "археологический комплекс": 2,
+          "погребение": 1,
+          "археологический памятник": 5,
+          "одиночное грунтовое погребение": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 104.281047,
+        "name_ru": "Иркутск",
+        "oblast_id": 3848,
+        "oblast_name_ru": "Иркутская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 1175,
+        "site_count": 2,
+        "total_sites_all_periods": 40,
+        "unspecified_period_sites": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.215465,
+          52.415521
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 11,
+          "поселение": 1,
+          "местонахождение": 6,
+          "наскальные изображения": 1,
+          "пещера": 3,
+          "погребение": 1,
+          "археологический памятник": 2,
+          "одиночное грунтовое погребение": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 103.215465,
+        "name_ru": "Иркутская область, Усольский район",
+        "oblast_id": 3848,
+        "oblast_name_ru": "Иркутская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 1204,
+        "site_count": 1,
+        "total_sites_all_periods": 27,
+        "unspecified_period_sites": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.640018,
+          57.592611
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 41,
+          "поселение": 8,
+          "некрополь": 1,
+          "местонахождение": 6
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 101.640018,
+        "name_ru": "Иркутская область, Усть-Илимский район",
+        "oblast_id": 3848,
+        "oblast_name_ru": "Иркутская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 1205,
+        "site_count": 6,
+        "total_sites_all_periods": 56,
+        "unspecified_period_sites": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.282196,
+          52.772205
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 10,
+          "местонахождение": 2,
+          "наскальные изображения": 1,
+          "археологический комплекс": 1,
+          "пещера": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 102.282196,
+        "name_ru": "Иркутская область, Черемховский район",
+        "oblast_id": 3848,
+        "oblast_name_ru": "Иркутская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 1208,
+        "site_count": 1,
+        "total_sites_all_periods": 16,
+        "unspecified_period_sites": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.847556,
+          52.029413
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 9,
+          "пещера": 1,
+          "археологический памятник": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 103.847556,
+        "name_ru": "Иркутская область, Шелеховский район",
+        "oblast_id": 3848,
+        "oblast_name_ru": "Иркутская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 1210,
+        "site_count": 1,
+        "total_sites_all_periods": 12,
+        "unspecified_period_sites": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.212348,
+          57.977584
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 6,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 109.212348,
+        "name_ru": "Иркутская область, Киренский район",
+        "oblast_id": 3848,
+        "oblast_name_ru": "Иркутская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 3866,
+        "site_count": 1,
+        "total_sites_all_periods": 7,
+        "unspecified_period_sites": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.562986,
+          55.345217
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 1,
+          "курганный могильник": 1,
+          "поселение": 4,
+          "укрепление": 1,
+          "одиночный курган": 1,
+          "археологический комплекс": 1,
+          "кладбище": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 83.562986,
+        "name_ru": "Новосибирская область, Мошковский район",
+        "oblast_id": 4375,
+        "oblast_name_ru": "Новосибирская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 1725,
+        "site_count": 2,
+        "total_sites_all_periods": 11,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.062896,
+          57.432415
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 4,
+          "культовое сооружение": 1,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000005,
+        "federal_district_name_ru": "Уральский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 60.062896,
+        "name_ru": "Свердловская область, Кировград",
+        "oblast_id": 4850,
+        "oblast_name_ru": "Свердловская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 2184,
+        "site_count": 1,
+        "total_sites_all_periods": 6,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.842645,
+          49.785221
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "курганный могильник": 2,
+          "поселение": 1,
+          "курган": 5,
+          "курганная группа": 6,
+          "одиночный курган": 6
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.842645,
+        "name_ru": "Воронежская область, Кантемировский район",
+        "oblast_id": 3773,
+        "oblast_name_ru": "Ворнежская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 1118,
+        "site_count": 1,
+        "total_sites_all_periods": 20,
+        "unspecified_period_sites": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.18997,
+          50.540478
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 7,
+          "курганный могильник": 14,
+          "селище": 3,
+          "поселение": 7,
+          "местонахождение": 1,
+          "курган": 6,
+          "курганная группа": 15,
+          "одиночный курган": 6
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 40.18997,
+        "name_ru": "Воронежская область, Павловский район",
+        "oblast_id": 3773,
+        "oblast_name_ru": "Ворнежская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 3802,
+        "site_count": 3,
+        "total_sites_all_periods": 59,
+        "unspecified_period_sites": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.694369,
+          50.174972
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 1,
+          "курганный могильник": 2,
+          "селище": 3,
+          "поселение": 1,
+          "курган": 2,
+          "курганная группа": 8,
+          "одиночный курган": 6
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 22,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.694369,
+        "name_ru": "Воронежская область, Россошанский район",
+        "oblast_id": 3773,
+        "oblast_name_ru": "Ворнежская область",
+        "period_key": "palaeometal",
+        "period_name_en": "Palaeometal Period",
+        "period_name_ru": "Палеометалл",
+        "region_id": 3810,
+        "site_count": 10,
+        "total_sites_all_periods": 24,
+        "unspecified_period_sites": 8
+      }
+    }
+  ]
+}

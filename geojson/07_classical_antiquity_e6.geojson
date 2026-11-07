@@ -1,0 +1,2543 @@
+{
+  "type": "FeatureCollection",
+  "name": "sites_ia_ras_classical_antiquity",
+  "metadata": {
+    "all_site_types_selected": true,
+    "crs": "EPSG:4326 (WGS84 [longitude, latitude])",
+    "epoch_id": 6,
+    "extracted_at_utc": "2026-11-07T17:48:20.236Z",
+    "feature_count": 62,
+    "oblasts_with_sites_count": 16,
+    "period_key": "classical_antiquity",
+    "period_name_en": "Classical Antiquity",
+    "period_name_ru": "Античное Время",
+    "source_url": "https://archaeolog.ru/oanmap/",
+    "total_sites_count": 812
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.221197,
+          55.204896
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 3,
+          "стоянка": 4,
+          "грунтовый могильник": 4,
+          "курганный могильник": 2,
+          "селище": 14,
+          "поселение": 5,
+          "местонахождение": 4,
+          "одиночный курган": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000002,
+        "federal_district_name_ru": "Приволжский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 56.221197,
+        "name_ru": "Республика Башкортостан, Благовещенский район",
+        "oblast_id": 2685,
+        "oblast_name_ru": "Республика Башкортостан",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2725,
+        "site_count": 1,
+        "total_sites_all_periods": 37,
+        "unspecified_period_sites": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.351093,
+          53.012076
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "курганный могильник": 36,
+          "селище": 16,
+          "поселение": 7,
+          "местонахождение": 9,
+          "курганная группа": 1,
+          "одиночный курган": 23,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000002,
+        "federal_district_name_ru": "Приволжский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 50.351093,
+        "name_ru": "Самарская область, Волжский район",
+        "oblast_id": 4729,
+        "oblast_name_ru": "Самарская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2093,
+        "site_count": 2,
+        "total_sites_all_periods": 95,
+        "unspecified_period_sites": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.659518,
+          54.786539
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "грунтовый могильник": 3,
+          "селище": 1,
+          "поселение": 11,
+          "одиночный курган": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 20.659518,
+        "name_ru": "Калининградская область, Гурьевский муниципальный округ",
+        "oblast_id": 1217,
+        "oblast_name_ru": "Калининградская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 1225,
+        "site_count": 2,
+        "total_sites_all_periods": 18,
+        "unspecified_period_sites": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.229431,
+          54.854304
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 18,
+          "грунтовый могильник": 30,
+          "курганный могильник": 4,
+          "селище": 25,
+          "поселение": 48,
+          "курган": 5,
+          "курганная группа": 1,
+          "укрепление": 2,
+          "одиночный курган": 1,
+          "археологический комплекс": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 20.229431,
+        "name_ru": "Калининградская область, Зеленоградский муниципальный округ",
+        "oblast_id": 1217,
+        "oblast_name_ru": "Калининградская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 3901,
+        "site_count": 2,
+        "total_sites_all_periods": 136,
+        "unspecified_period_sites": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.704183,
+          59.410564
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 3,
+          "стоянка": 36,
+          "грунтовый могильник": 3,
+          "курганный могильник": 5,
+          "селище": 3,
+          "поселение": 2,
+          "городское поселение": 1,
+          "местонахождение": 10,
+          "курган": 2,
+          "курганная группа": 2,
+          "курганный могильник с каменным": 1,
+          "могильник с каменными конструк": 3,
+          "мегалитические сооружения": 1,
+          "храм": 2,
+          "одиночный курган": 1,
+          "подводные исследования": 12,
+          "археологический памятник": 8,
+          "каменная ограда": 1,
+          "крепость": 1,
+          "одиночное грунтовое погребение": 1,
+          "кладбище": 1,
+          "могильник": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 28.704183,
+        "name_ru": "Ленинградская область, Кингисеппский район",
+        "oblast_id": 4128,
+        "oblast_name_ru": "Ленинградская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 4143,
+        "site_count": 1,
+        "total_sites_all_periods": 102,
+        "unspecified_period_sites": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.213339,
+          51.341165
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "грунтовый могильник": 1,
+          "поселение": 1,
+          "местонахождение": 3,
+          "курган": 1,
+          "курганная группа": 1,
+          "курганный могильник с каменным": 3,
+          "могильник с каменными конструк": 1,
+          "одиночный курган": 1,
+          "погребально-поминальный компле": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 86.213339,
+        "name_ru": "Республика Алтай, Чемальский район",
+        "oblast_id": 129,
+        "oblast_name_ru": "Республика Алтай",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 140,
+        "site_count": 1,
+        "total_sites_all_periods": 17,
+        "unspecified_period_sites": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.448644,
+          52.904728
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 9,
+          "стоянка": 5,
+          "курганный могильник": 2,
+          "селище": 18,
+          "поселение": 2,
+          "местонахождение": 4,
+          "крепость": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 33.448644,
+        "name_ru": "Брянская область, Почепский район",
+        "oblast_id": 929,
+        "oblast_name_ru": "Брянская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 3637,
+        "site_count": 1,
+        "total_sites_all_periods": 41,
+        "unspecified_period_sites": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.430332,
+          50.507207
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 1,
+          "курганный могильник": 11,
+          "селище": 52,
+          "поселение": 1,
+          "местонахождение": 6,
+          "курган": 5,
+          "курганная группа": 6,
+          "производственный комплекс": 1,
+          "укрепление": 5,
+          "одиночный курган": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 36.430332,
+        "name_ru": "Белгородская область, Белгородский район",
+        "oblast_id": 3571,
+        "oblast_name_ru": "Белгоpодская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 928,
+        "site_count": 2,
+        "total_sites_all_periods": 92,
+        "unspecified_period_sites": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.186651,
+          51.929141
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 4,
+          "курганный могильник": 1,
+          "селище": 1,
+          "поселение": 12,
+          "курганная группа": 5,
+          "одиночный курган": 4
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.186651,
+        "name_ru": "Воронежская область, Рамонский район",
+        "oblast_id": 3773,
+        "oblast_name_ru": "Ворнежская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 1134,
+        "site_count": 1,
+        "total_sites_all_periods": 27,
+        "unspecified_period_sites": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.570487,
+          49.848392
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "курганный могильник": 7,
+          "селище": 8,
+          "поселение": 3,
+          "курган": 7,
+          "курганная группа": 5,
+          "одиночный курган": 6
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 40.570487,
+        "name_ru": "Воронежская область, Богучарский район",
+        "oblast_id": 3773,
+        "oblast_name_ru": "Ворнежская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 3779,
+        "site_count": 1,
+        "total_sites_all_periods": 37,
+        "unspecified_period_sites": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.287414,
+          51.23318
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 3,
+          "грунтовый могильник": 1,
+          "курганный могильник": 1,
+          "селище": 4,
+          "поселение": 60,
+          "местонахождение": 3,
+          "курган": 1,
+          "одиночный курган": 1,
+          "клад": 3,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 35.287414,
+        "name_ru": "Курская область, Суджанский район",
+        "oblast_id": 4095,
+        "oblast_name_ru": "Курская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 4121,
+        "site_count": 1,
+        "total_sites_all_periods": 78,
+        "unspecified_period_sites": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.44661,
+          52.784527
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 3,
+          "стоянка": 2,
+          "курганный могильник": 1,
+          "селище": 3,
+          "поселение": 101,
+          "местонахождение": 5,
+          "курган": 2,
+          "курганная группа": 2,
+          "укрепление": 2,
+          "археологический комплекс": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 40.44661,
+        "name_ru": "Тамбовская область, Мичуринский район",
+        "oblast_id": 4939,
+        "oblast_name_ru": "Тамбовская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2276,
+        "site_count": 1,
+        "total_sites_all_periods": 122,
+        "unspecified_period_sites": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.226558,
+          45.658935
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "курганный могильник": 4,
+          "поселение": 6,
+          "курган": 1,
+          "курганная группа": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": true,
+        "lon_unwrapped": 38.226558,
+        "name_ru": "Краснодарский край (без уточнения)",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 616,
+        "site_count": 4,
+        "total_sites_all_periods": 12,
+        "unspecified_period_sites": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.077115,
+          44.561006
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "грунтовый могильник": 6,
+          "курганный могильник": 1,
+          "селище": 4,
+          "поселение": 4,
+          "курган": 1,
+          "курганная группа": 7,
+          "мегалитические сооружения": 2,
+          "культовое сооружение": 1,
+          "археологический памятник": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 38.077115,
+        "name_ru": "Краснодарский край, Геленджик",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 619,
+        "site_count": 4,
+        "total_sites_all_periods": 30,
+        "unspecified_period_sites": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.768804,
+          44.723771
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "грунтовый могильник": 11,
+          "курганный могильник": 5,
+          "поселение": 76,
+          "некрополь": 8,
+          "местонахождение": 2,
+          "курган": 14,
+          "курганная группа": 18,
+          "курганный могильник с каменным": 1,
+          "подводные исследования": 16,
+          "археологический памятник": 3,
+          "дольменный могильник": 5,
+          "катакомбный могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 37.768804,
+        "name_ru": "Краснодарский край, Новороссийск",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 621,
+        "site_count": 34,
+        "total_sites_all_periods": 161,
+        "unspecified_period_sites": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.723089,
+          43.585472
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 7,
+          "грунтовый могильник": 5,
+          "курганный могильник": 26,
+          "селище": 54,
+          "поселение": 19,
+          "пещерная стоянка": 5,
+          "местонахождение": 17,
+          "курган": 2,
+          "курганная группа": 23,
+          "могильник с каменными конструк": 1,
+          "производственный комплекс": 1,
+          "укрепление": 6,
+          "мегалитические сооружения": 4,
+          "храм": 9,
+          "одиночный курган": 1,
+          "археологический комплекс": 3,
+          "пещера": 9,
+          "археологический памятник": 23,
+          "дольменный могильник": 6,
+          "каменная ограда": 1,
+          "крепость": 7
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.723089,
+        "name_ru": "Краснодарский край, Сочи",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 622,
+        "site_count": 1,
+        "total_sites_all_periods": 229,
+        "unspecified_period_sites": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.039731,
+          45.840549
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "курганный могильник": 2,
+          "курган": 6,
+          "курганная группа": 15,
+          "одиночный курган": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.039731,
+        "name_ru": "Краснодарский край, Брюховецкий район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 632,
+        "site_count": 1,
+        "total_sites_all_periods": 26,
+        "unspecified_period_sites": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.796768,
+          45.671527
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "поселение": 4,
+          "курган": 4,
+          "курганная группа": 9
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.796768,
+        "name_ru": "Краснодарский край, Выселковский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 633,
+        "site_count": 2,
+        "total_sites_all_periods": 17,
+        "unspecified_period_sites": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.395702,
+          45.618537
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "курган": 5,
+          "курганная группа": 16,
+          "одиночный курган": 6
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 38.395702,
+        "name_ru": "Краснодарский край, Калининский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 640,
+        "site_count": 1,
+        "total_sites_all_periods": 27,
+        "unspecified_period_sites": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.373388,
+          45.322883
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "грунтовый могильник": 3,
+          "курганный могильник": 1,
+          "селище": 3,
+          "поселение": 1,
+          "местонахождение": 1,
+          "курган": 62,
+          "курганная группа": 9,
+          "одиночный курган": 23,
+          "археологический комплекс": 1,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 38.373388,
+        "name_ru": "Краснодарский край, Красноармейский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 644,
+        "site_count": 1,
+        "total_sites_all_periods": 106,
+        "unspecified_period_sites": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.611433,
+          44.15129
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 8,
+          "грунтовый могильник": 4,
+          "курганный могильник": 2,
+          "поселение": 13,
+          "пещерная стоянка": 3,
+          "местонахождение": 15,
+          "курган": 4,
+          "курганная группа": 21,
+          "могильник с каменными конструк": 1,
+          "наскальные изображения": 1,
+          "пещера": 2,
+          "одиночное грунтовое погребение": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 40.611433,
+        "name_ru": "Краснодарский край, Мостовский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 654,
+        "site_count": 1,
+        "total_sites_all_periods": 78,
+        "unspecified_period_sites": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.416152,
+          44.307415
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "грунтовый могильник": 1,
+          "курганная группа": 1,
+          "могильник с каменными конструк": 1,
+          "одиночное грунтовое погребение": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 41.416152,
+        "name_ru": "Краснодарский край, Отрадненский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 658,
+        "site_count": 1,
+        "total_sites_all_periods": 5,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.699297,
+          44.758184
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 2,
+          "курганный могильник": 40,
+          "селище": 6,
+          "поселение": 20,
+          "местонахождение": 5,
+          "курган": 39,
+          "курганная группа": 26,
+          "одиночный курган": 5
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 38.699297,
+        "name_ru": "Краснодарский край, Северский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 662,
+        "site_count": 2,
+        "total_sites_all_periods": 144,
+        "unspecified_period_sites": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.605252,
+          46.713433
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "поселение": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 38.605252,
+        "name_ru": "Краснодарский край, Щербиновский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 678,
+        "site_count": 1,
+        "total_sites_all_periods": 1,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.284158,
+          44.86763
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "курганный могильник": 10,
+          "селище": 2,
+          "поселение": 29,
+          "местонахождение": 1,
+          "курган": 22,
+          "курганная группа": 36,
+          "курганный могильник с каменным": 1,
+          "могильник с каменными конструк": 1,
+          "мегалитические сооружения": 2,
+          "одиночный курган": 21,
+          "археологический памятник": 3,
+          "дольменный могильник": 4
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 38.284158,
+        "name_ru": "Краснодарский край, Абинский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 3297,
+        "site_count": 2,
+        "total_sites_all_periods": 133,
+        "unspecified_period_sites": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.31667,
+          44.883331
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 6,
+          "грунтовый могильник": 11,
+          "курганный могильник": 12,
+          "селище": 4,
+          "поселение": 72,
+          "некрополь": 1,
+          "местонахождение": 2,
+          "курган": 75,
+          "курганная группа": 41,
+          "усадьба": 26,
+          "могильник с каменными конструк": 1,
+          "укрепление": 1,
+          "наскальные изображения": 1,
+          "культовое сооружение": 1,
+          "одиночный курган": 27,
+          "клад": 1,
+          "археологический памятник": 4,
+          "постройка": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 37.31667,
+        "name_ru": "Краснодарский край, Анапский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 3299,
+        "site_count": 62,
+        "total_sites_all_periods": 288,
+        "unspecified_period_sites": 111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.698322,
+          44.345925
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 1,
+          "грунтовый могильник": 13,
+          "курганный могильник": 7,
+          "селище": 3,
+          "поселение": 6,
+          "местонахождение": 4,
+          "курган": 8,
+          "курганная группа": 24,
+          "одиночный курган": 2,
+          "пещера": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.698322,
+        "name_ru": "Краснодарский край, Апшеронский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 3301,
+        "site_count": 1,
+        "total_sites_all_periods": 70,
+        "unspecified_period_sites": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.696036,
+          45.304933
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "местонахождение": 1,
+          "курган": 16,
+          "курганная группа": 14,
+          "одиночный курган": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 40.696036,
+        "name_ru": "Краснодарский край, Гулькевичский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 3308,
+        "site_count": 16,
+        "total_sites_all_periods": 35,
+        "unspecified_period_sites": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.898125,
+          44.998892
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 8,
+          "грунтовый могильник": 5,
+          "курганный могильник": 4,
+          "селище": 11,
+          "поселение": 63,
+          "местонахождение": 4,
+          "курган": 20,
+          "курганная группа": 32,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 37.898125,
+        "name_ru": "Краснодарский край, Крымский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 3320,
+        "site_count": 15,
+        "total_sites_all_periods": 148,
+        "unspecified_period_sites": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.058668,
+          45.288449
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 27,
+          "стоянка": 5,
+          "грунтовый могильник": 10,
+          "курганный могильник": 10,
+          "селище": 3,
+          "поселение": 316,
+          "некрополь": 13,
+          "городское поселение": 4,
+          "местонахождение": 9,
+          "курган": 225,
+          "курганная группа": 88,
+          "усадьба": 1,
+          "укрепление": 2,
+          "культовое сооружение": 2,
+          "одиночный курган": 259,
+          "подводные исследования": 14,
+          "археологический комплекс": 1,
+          "крепость": 1,
+          "постройка": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 37.058668,
+        "name_ru": "Краснодарский край, Темрюкский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 3341,
+        "site_count": 310,
+        "total_sites_all_periods": 992,
+        "unspecified_period_sites": 534
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.812669,
+          45.27527
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 32,
+          "грунтовый могильник": 5,
+          "курганный могильник": 4,
+          "селище": 4,
+          "поселение": 2,
+          "курган": 20,
+          "курганная группа": 35,
+          "одиночный курган": 1,
+          "погребение": 1,
+          "одиночное грунтовое погребение": 1,
+          "могильник": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.812669,
+        "name_ru": "Краснодарский край, Усть-Лабинский район",
+        "oblast_id": 3290,
+        "oblast_name_ru": "Краснодарский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 3350,
+        "site_count": 3,
+        "total_sites_all_periods": 108,
+        "unspecified_period_sites": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.243649,
+          50.139611
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "курганный могильник": 6,
+          "поселение": 1,
+          "курган": 2,
+          "курганная группа": 11,
+          "одиночный курган": 2,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 43.243649,
+        "name_ru": "Волгоградская область, городской округ Михайловка",
+        "oblast_id": 3682,
+        "oblast_name_ru": "Волгоградская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 1036,
+        "site_count": 2,
+        "total_sites_all_periods": 23,
+        "unspecified_period_sites": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.720349,
+          47.222078
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 7,
+          "грунтовый могильник": 2,
+          "курганный могильник": 8,
+          "поселение": 14,
+          "некрополь": 5,
+          "местонахождение": 2,
+          "курган": 1,
+          "курганная группа": 7,
+          "археологический памятник": 1,
+          "крепость": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.720349,
+        "name_ru": "Ростов-на-Дону",
+        "oblast_id": 4636,
+        "oblast_name_ru": "Ростовская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 1963,
+        "site_count": 7,
+        "total_sites_all_periods": 50,
+        "unspecified_period_sites": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.423581,
+          47.112442
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 2,
+          "грунтовый могильник": 2,
+          "курганный могильник": 1,
+          "поселение": 20,
+          "некрополь": 1,
+          "городское поселение": 3,
+          "местонахождение": 4,
+          "укрепление": 1,
+          "клад": 1,
+          "археологический памятник": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.423581,
+        "name_ru": "Ростовская область, Азов",
+        "oblast_id": 4636,
+        "oblast_name_ru": "Ростовская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 1974,
+        "site_count": 7,
+        "total_sites_all_periods": 39,
+        "unspecified_period_sites": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.233695,
+          46.935298
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 9,
+          "грунтовый могильник": 4,
+          "курганный могильник": 80,
+          "поселение": 190,
+          "городское поселение": 1,
+          "местонахождение": 62,
+          "курган": 1,
+          "курганная группа": 24,
+          "храм": 1,
+          "одиночный курган": 8,
+          "археологический комплекс": 1,
+          "археологический памятник": 5
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.233695,
+        "name_ru": "Ростовская область, Азовский район",
+        "oblast_id": 4636,
+        "oblast_name_ru": "Ростовская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 1975,
+        "site_count": 62,
+        "total_sites_all_periods": 388,
+        "unspecified_period_sites": 134
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.468021,
+          47.373116
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 8,
+          "грунтовый могильник": 1,
+          "курганный могильник": 17,
+          "поселение": 23,
+          "некрополь": 1,
+          "местонахождение": 4,
+          "курган": 1,
+          "курганная группа": 3,
+          "одиночный курган": 1,
+          "археологический комплекс": 1,
+          "археологический памятник": 5
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.468021,
+        "name_ru": "Ростовская область, Мясниковский район",
+        "oblast_id": 4636,
+        "oblast_name_ru": "Ростовская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2005,
+        "site_count": 10,
+        "total_sites_all_periods": 67,
+        "unspecified_period_sites": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.722042,
+          47.281958
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 7,
+          "курганный могильник": 17,
+          "селище": 3,
+          "поселение": 23,
+          "некрополь": 1,
+          "местонахождение": 38,
+          "курган": 1,
+          "курганная группа": 1,
+          "археологический памятник": 1,
+          "одиночное грунтовое погребение": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 38.722042,
+        "name_ru": "Ростовская область, Неклиновский район",
+        "oblast_id": 4636,
+        "oblast_name_ru": "Ростовская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2006,
+        "site_count": 1,
+        "total_sites_all_periods": 96,
+        "unspecified_period_sites": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.410291,
+          48.701133
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "селище": 6,
+          "поселение": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 42.410291,
+        "name_ru": "Ростовская область, Обливский район",
+        "oblast_id": 4636,
+        "oblast_name_ru": "Ростовская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2007,
+        "site_count": 1,
+        "total_sites_all_periods": 9,
+        "unspecified_period_sites": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.235595,
+          47.497986
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "курганный могильник": 22,
+          "поселение": 7,
+          "местонахождение": 2,
+          "курган": 1,
+          "курганная группа": 4,
+          "курганный могильник с каменным": 1,
+          "одиночный курган": 1,
+          "археологический памятник": 1,
+          "кочевье": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 40.235595,
+        "name_ru": "Ростовская область, Октябрьский район",
+        "oblast_id": 4636,
+        "oblast_name_ru": "Ростовская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2008,
+        "site_count": 2,
+        "total_sites_all_periods": 40,
+        "unspecified_period_sites": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.066739,
+          48.699629
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "курганный могильник": 6,
+          "поселение": 20,
+          "курганная группа": 9,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 40.066739,
+        "name_ru": "Ростовская область, Тарасовский район",
+        "oblast_id": 4636,
+        "oblast_name_ru": "Ростовская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2020,
+        "site_count": 1,
+        "total_sites_all_periods": 36,
+        "unspecified_period_sites": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.351474,
+          48.196872
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "курганный могильник": 3,
+          "селище": 2,
+          "поселение": 2,
+          "курган": 20,
+          "курганная группа": 43,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 41.351474,
+        "name_ru": "Ростовская область, Тацинский район",
+        "oblast_id": 4636,
+        "oblast_name_ru": "Ростовская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2021,
+        "site_count": 1,
+        "total_sites_all_periods": 71,
+        "unspecified_period_sites": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.936223,
+          47.28334
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "грунтовый могильник": 1,
+          "курганный могильник": 49,
+          "поселение": 30,
+          "местонахождение": 3,
+          "курган": 3,
+          "курганная группа": 13,
+          "археологический памятник": 1,
+          "кочевье": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.936223,
+        "name_ru": "Ростовская область, Аксайский район",
+        "oblast_id": 4636,
+        "oblast_name_ru": "Ростовская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 4650,
+        "site_count": 6,
+        "total_sites_all_periods": 102,
+        "unspecified_period_sites": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.420945,
+          48.997943
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "курганный могильник": 32,
+          "селище": 1,
+          "поселение": 7,
+          "местонахождение": 1,
+          "курган": 1,
+          "курганная группа": 7,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 40.420945,
+        "name_ru": "Ростовская область, Миллеровский район",
+        "oblast_id": 4636,
+        "oblast_name_ru": "Ростовская область",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 4674,
+        "site_count": 1,
+        "total_sites_all_periods": 50,
+        "unspecified_period_sites": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.164408,
+          45.327116
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "поселение": 2,
+          "некрополь": 1,
+          "местонахождение": 1,
+          "курган": 1,
+          "курганная группа": 5,
+          "подводные исследования": 12
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": true,
+        "lon_unwrapped": 34.164408,
+        "name_ru": "Республика Крым (без уточнения)",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2645,
+        "site_count": 2,
+        "total_sites_all_periods": 22,
+        "unspecified_period_sites": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.467378,
+          45.356219
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "грунтовый могильник": 7,
+          "курганный могильник": 5,
+          "поселение": 22,
+          "некрополь": 9,
+          "городское поселение": 3,
+          "местонахождение": 7,
+          "объект военных действий": 2,
+          "курган": 3,
+          "курганная группа": 4,
+          "усадьба": 2,
+          "укрепление": 1,
+          "одиночный курган": 7,
+          "подводные исследования": 2,
+          "археологический комплекс": 1,
+          "археологический памятник": 2,
+          "каменная ограда": 2,
+          "крепость": 2,
+          "кладбище": 2,
+          "постройка": 1,
+          "городская застройка": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 36.467378,
+        "name_ru": "Республика Крым, Керчь",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2646,
+        "site_count": 31,
+        "total_sites_all_periods": 90,
+        "unspecified_period_sites": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.600145,
+          45.132007
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "поселение": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 33.600145,
+        "name_ru": "Республика Крым, Саки",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2648,
+        "site_count": 1,
+        "total_sites_all_periods": 2,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.976157,
+          44.850526
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 1,
+          "грунтовый могильник": 1,
+          "поселение": 3,
+          "местонахождение": 2,
+          "храм": 2,
+          "подводные исследования": 7,
+          "крепость": 2,
+          "кладбище": 1,
+          "постройка": 1,
+          "могильник": 4
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 34.976157,
+        "name_ru": "Республика Крым, Судак",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2649,
+        "site_count": 5,
+        "total_sites_all_periods": 25,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.100318,
+          44.948237
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 3,
+          "стоянка": 1,
+          "грунтовый могильник": 1,
+          "селище": 1,
+          "поселение": 1,
+          "некрополь": 1,
+          "городское поселение": 1,
+          "местонахождение": 2,
+          "курган": 1,
+          "курганная группа": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 34.100318,
+        "name_ru": "Республика Крым, Симферополь",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2650,
+        "site_count": 5,
+        "total_sites_all_periods": 13,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.169506,
+          44.497408
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "грунтовый могильник": 2,
+          "поселение": 2,
+          "некрополь": 1,
+          "местонахождение": 1,
+          "храм": 2,
+          "культовое сооружение": 1,
+          "подводные исследования": 2,
+          "пещера": 1,
+          "археологический памятник": 2,
+          "крепость": 1,
+          "гидротехнические сооружения": 1,
+          "могильник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 34.169506,
+        "name_ru": "Республика Крым, Ялта",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2651,
+        "site_count": 4,
+        "total_sites_all_periods": 19,
+        "unspecified_period_sites": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.367634,
+          45.190629
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "городское поселение": 1,
+          "подводные исследования": 4
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 33.367634,
+        "name_ru": "Республика Крым, Евпатория",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2652,
+        "site_count": 3,
+        "total_sites_all_periods": 6,
+        "unspecified_period_sites": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.383902,
+          45.026648
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 3,
+          "стоянка": 6,
+          "курганный могильник": 1,
+          "городское поселение": 1,
+          "местонахождение": 2,
+          "курган": 9,
+          "курганная группа": 2,
+          "усадьба": 1,
+          "укрепление": 1,
+          "храм": 1,
+          "подводные исследования": 4,
+          "гидротехнические сооружения": 1,
+          "могильник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 35.383902,
+        "name_ru": "Республика Крым, Феодосия",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2653,
+        "site_count": 4,
+        "total_sites_all_periods": 34,
+        "unspecified_period_sites": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.254531,
+          45.401947
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "поселение": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 34.254531,
+        "name_ru": "Республика Крым, Красногвардейский район",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2662,
+        "site_count": 1,
+        "total_sites_all_periods": 1,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.038127,
+          45.264975
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 10,
+          "грунтовый могильник": 4,
+          "курганный могильник": 5,
+          "поселение": 83,
+          "некрополь": 6,
+          "местонахождение": 48,
+          "курган": 13,
+          "курганная группа": 17,
+          "курганный могильник с каменным": 3,
+          "могильник с каменными конструк": 1,
+          "укрепление": 3,
+          "одиночный курган": 6,
+          "подводные исследования": 1,
+          "археологический комплекс": 1,
+          "археологический памятник": 2,
+          "каменная ограда": 2,
+          "гидротехнические сооружения": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 36.038127,
+        "name_ru": "Республика Крым, Ленинский район",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2664,
+        "site_count": 97,
+        "total_sites_all_periods": 207,
+        "unspecified_period_sites": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.510789,
+          45.278473
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "курганный могильник": 1,
+          "селище": 3,
+          "поселение": 7,
+          "местонахождение": 1,
+          "курганная группа": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 33.510789,
+        "name_ru": "Республика Крым, Сакский район",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2668,
+        "site_count": 12,
+        "total_sites_all_periods": 17,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.036798,
+          44.984154
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 9,
+          "стоянка": 10,
+          "курганный могильник": 2,
+          "селище": 7,
+          "поселение": 8,
+          "пещерная стоянка": 3,
+          "грот": 1,
+          "местонахождение": 11,
+          "курган": 105,
+          "курганная группа": 39,
+          "храм": 1,
+          "культовое сооружение": 5,
+          "погребение": 1,
+          "археологический памятник": 1,
+          "каменные изваяния": 1,
+          "могильник": 4
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 34.036798,
+        "name_ru": "Республика Крым, Симферопольский район",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2669,
+        "site_count": 18,
+        "total_sites_all_periods": 208,
+        "unspecified_period_sites": 146
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.770012,
+          45.477437
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 6,
+          "селище": 2,
+          "поселение": 2,
+          "городское поселение": 1,
+          "курганная группа": 1,
+          "подводные исследования": 2,
+          "археологический памятник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 32.770012,
+        "name_ru": "Республика Крым, Черноморский район",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2671,
+        "site_count": 5,
+        "total_sites_all_periods": 16,
+        "unspecified_period_sites": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.898466,
+          44.710282
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 9,
+          "стоянка": 6,
+          "грунтовый могильник": 9,
+          "селище": 4,
+          "поселение": 13,
+          "некрополь": 1,
+          "пещерная стоянка": 4,
+          "грот": 1,
+          "курган": 1,
+          "курганная группа": 1,
+          "производственный комплекс": 4,
+          "укрепление": 3,
+          "храм": 2,
+          "археологический комплекс": 2,
+          "погребение": 1,
+          "археологический памятник": 6,
+          "кладбище": 1,
+          "постройка": 1,
+          "склеп": 1,
+          "могильник": 6
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 33.898466,
+        "name_ru": "Республика Крым, Бахчисарайский район",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 5329,
+        "site_count": 10,
+        "total_sites_all_periods": 76,
+        "unspecified_period_sites": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.556707,
+          45.063037
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 3,
+          "некрополь": 3,
+          "местонахождение": 3,
+          "курган": 20,
+          "курганная группа": 5,
+          "пещера": 1,
+          "могильник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 34.556707,
+        "name_ru": "Республика Крым, Белогорский район",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 5331,
+        "site_count": 3,
+        "total_sites_all_periods": 39,
+        "unspecified_period_sites": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.180299,
+          45.122303
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "селище": 4,
+          "поселение": 6,
+          "курган": 10,
+          "курганная группа": 10,
+          "одиночный курган": 1,
+          "археологический комплекс": 1,
+          "погребально-поминальный компле": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 35.180299,
+        "name_ru": "Республика Крым, Кировский район",
+        "oblast_id": 5319,
+        "oblast_name_ru": "Республика Крым",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 5334,
+        "site_count": 11,
+        "total_sites_all_periods": 34,
+        "unspecified_period_sites": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.673167,
+          44.546062
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 12,
+          "стоянка": 5,
+          "грунтовый могильник": 6,
+          "курганный могильник": 9,
+          "селище": 3,
+          "поселение": 59,
+          "некрополь": 1,
+          "городское поселение": 1,
+          "пещерная стоянка": 5,
+          "местонахождение": 10,
+          "курган": 2,
+          "курганная группа": 3,
+          "усадьба": 24,
+          "могильник с каменными конструк": 1,
+          "производственный комплекс": 1,
+          "укрепление": 5,
+          "монастырь": 3,
+          "культовое сооружение": 1,
+          "промысловый комплекс": 1,
+          "одиночный курган": 1,
+          "подводные исследования": 6,
+          "археологический комплекс": 2,
+          "археологический памятник": 21,
+          "каменная ограда": 1,
+          "древние горные выработки": 1,
+          "крепость": 1,
+          "гидротехнические сооружения": 1,
+          "могильник": 28
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": true,
+        "lon_unwrapped": 33.673167,
+        "name_ru": "Севастополь (без уточнения)",
+        "oblast_id": 5346,
+        "oblast_name_ru": "Севастополь",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2672,
+        "site_count": 19,
+        "total_sites_all_periods": 214,
+        "unspecified_period_sites": 128
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.608742,
+          44.614461
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "грунтовый могильник": 3,
+          "селище": 1,
+          "поселение": 3,
+          "монастырь": 1,
+          "крепость": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000007,
+        "federal_district_name_ru": "Южный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 33.608742,
+        "name_ru": "Севастополь, Балаклавский район, Инкерман",
+        "oblast_id": 5346,
+        "oblast_name_ru": "Севастополь",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 2673,
+        "site_count": 1,
+        "total_sites_all_periods": 10,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.85891,
+          44.044526
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "грунтовый могильник": 1,
+          "курганный могильник": 1,
+          "поселение": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 6,
+        "federal_district_id": 10000008,
+        "federal_district_name_ru": "Северо-Кавказский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 42.85891,
+        "name_ru": "Ставропольский край, Ессентуки",
+        "oblast_id": 3447,
+        "oblast_name_ru": "Ставропольский край",
+        "period_key": "classical_antiquity",
+        "period_name_en": "Classical Antiquity",
+        "period_name_ru": "Античное Время",
+        "region_id": 775,
+        "site_count": 1,
+        "total_sites_all_periods": 3,
+        "unspecified_period_sites": 2
+      }
+    }
+  ]
+}

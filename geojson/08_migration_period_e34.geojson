@@ -1,0 +1,208 @@
+{
+  "type": "FeatureCollection",
+  "name": "sites_ia_ras_migration_period",
+  "metadata": {
+    "all_site_types_selected": true,
+    "crs": "EPSG:4326 (WGS84 [longitude, latitude])",
+    "epoch_id": 34,
+    "extracted_at_utc": "2026-11-07T17:48:20.239Z",
+    "feature_count": 5,
+    "oblasts_with_sites_count": 2,
+    "period_key": "migration_period",
+    "period_name_en": "Migration Period",
+    "period_name_ru": "Эпоха Великого переселения народов",
+    "source_url": "https://archaeolog.ru/oanmap/",
+    "total_sites_count": 10
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.500446,
+          52.621938
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 1,
+          "селище": 1,
+          "поселение": 5,
+          "городское поселение": 1,
+          "археологический комплекс": 1,
+          "могильник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 34,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 38.500446,
+        "name_ru": "Липецкая область, Елец",
+        "oblast_id": 1488,
+        "oblast_name_ru": "Липецкая область",
+        "period_key": "migration_period",
+        "period_name_en": "Migration Period",
+        "period_name_ru": "Эпоха Великого переселения народов",
+        "region_id": 1490,
+        "site_count": 2,
+        "total_sites_all_periods": 12,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.532956,
+          52.499201
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "стоянка": 1,
+          "селище": 5,
+          "поселение": 30,
+          "местонахождение": 6,
+          "археологический комплекс": 1,
+          "пещера": 2,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 34,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 38.532956,
+        "name_ru": "Липецкая область, Елецкий район",
+        "oblast_id": 1488,
+        "oblast_name_ru": "Липецкая область",
+        "period_key": "migration_period",
+        "period_name_en": "Migration Period",
+        "period_name_ru": "Эпоха Великого переселения народов",
+        "region_id": 1499,
+        "site_count": 1,
+        "total_sites_all_periods": 50,
+        "unspecified_period_sites": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.000237,
+          52.644379
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "поселение": 12
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 34,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 38.000237,
+        "name_ru": "Липецкая область, Измалковский район",
+        "oblast_id": 1488,
+        "oblast_name_ru": "Липецкая область",
+        "period_key": "migration_period",
+        "period_name_en": "Migration Period",
+        "period_name_ru": "Эпоха Великого переселения народов",
+        "region_id": 1502,
+        "site_count": 5,
+        "total_sites_all_periods": 12,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.122727,
+          52.177826
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 6,
+          "стоянка": 1,
+          "курганный могильник": 3,
+          "поселение": 55,
+          "местонахождение": 10,
+          "курган": 6,
+          "курганная группа": 2,
+          "одиночный курган": 4
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 34,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.122727,
+        "name_ru": "Липецкая область, Хлевенский район",
+        "oblast_id": 1488,
+        "oblast_name_ru": "Липецкая область",
+        "period_key": "migration_period",
+        "period_name_en": "Migration Period",
+        "period_name_ru": "Эпоха Великого переселения народов",
+        "region_id": 1511,
+        "site_count": 1,
+        "total_sites_all_periods": 87,
+        "unspecified_period_sites": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.200269,
+          51.660781
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 5,
+          "стоянка": 1,
+          "курганный могильник": 3,
+          "селище": 1,
+          "поселение": 18,
+          "городское поселение": 1,
+          "курганная группа": 8,
+          "усадьба": 1,
+          "одиночный курган": 2,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 34,
+        "federal_district_id": 10000006,
+        "federal_district_name_ru": "Центральный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.200269,
+        "name_ru": "Воронеж",
+        "oblast_id": 3773,
+        "oblast_name_ru": "Ворнежская область",
+        "period_key": "migration_period",
+        "period_name_en": "Migration Period",
+        "period_name_ru": "Эпоха Великого переселения народов",
+        "region_id": 1100,
+        "site_count": 1,
+        "total_sites_all_periods": 41,
+        "unspecified_period_sites": 9
+      }
+    }
+  ]
+}

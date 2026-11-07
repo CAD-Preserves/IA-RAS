@@ -1,0 +1,1846 @@
+{
+  "type": "FeatureCollection",
+  "name": "sites_ia_ras_early_metal_age",
+  "metadata": {
+    "all_site_types_selected": true,
+    "crs": "EPSG:4326 (WGS84 [longitude, latitude])",
+    "epoch_id": 21,
+    "extracted_at_utc": "2026-11-07T17:48:20.168Z",
+    "feature_count": 49,
+    "oblasts_with_sites_count": 21,
+    "period_key": "early_metal_age",
+    "period_name_en": "Early Metal Age",
+    "period_name_ru": "Эпоха Раннего Металла",
+    "source_url": "https://archaeolog.ru/oanmap/",
+    "total_sites_count": 132
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.486144,
+          63.238278
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 146.486144,
+        "name_ru": "Магаданская область, Сусуманский городской округ",
+        "oblast_id": 1515,
+        "oblast_name_ru": "Магаданская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1521,
+        "site_count": 1,
+        "total_sites_all_periods": 2,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.274906,
+          62.586059
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 5
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 150.274906,
+        "name_ru": "Магаданская область, Ягоднинский городской округ",
+        "oblast_id": 1515,
+        "oblast_name_ru": "Магаданская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1524,
+        "site_count": 2,
+        "total_sites_all_periods": 5,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.258716,
+          64.436325
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 9,
+          "местонахождение": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": true,
+        "lon_unwrapped": 128.258716,
+        "name_ru": "Республика Саха (Якутия) (без уточнения)",
+        "oblast_id": 3004,
+        "oblast_name_ru": "Республика Саха (Якутия)",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 330,
+        "site_count": 3,
+        "total_sites_all_periods": 12,
+        "unspecified_period_sites": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.571267,
+          61.749365
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 12,
+          "погребение": 12,
+          "археологический памятник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 130.571267,
+        "name_ru": "Республика Саха (Якутия), муниципальный район Мегино-Кангаласский улус",
+        "oblast_id": 3004,
+        "oblast_name_ru": "Республика Саха (Якутия)",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 345,
+        "site_count": 2,
+        "total_sites_all_periods": 26,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.014165,
+          51.528794
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 16,
+          "курганный могильник": 1,
+          "поселение": 94,
+          "курган": 2,
+          "археологический памятник": 5
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 143.014165,
+        "name_ru": "Сахалинская область, городской округ Ногликский",
+        "oblast_id": 4820,
+        "oblast_name_ru": "Сахалинская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 2158,
+        "site_count": 3,
+        "total_sites_all_periods": 118,
+        "unspecified_period_sites": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.489138,
+          65.123776
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 3,
+          "поселение": 7,
+          "культовое сооружение": 1,
+          "археологический памятник": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000001,
+        "federal_district_name_ru": "Дальневосточный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 185.510862,
+        "name_ru": "Чукотский автономный округ, Провиденский городской округ",
+        "oblast_id": 5294,
+        "oblast_name_ru": "Чукотский автономный округ",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 2624,
+        "site_count": 2,
+        "total_sites_all_periods": 14,
+        "unspecified_period_sites": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.735405,
+          55.765179
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 5,
+          "селище": 7,
+          "поселение": 1,
+          "местонахождение": 11,
+          "кладбище": 4
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000002,
+        "federal_district_name_ru": "Приволжский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 49.735405,
+        "name_ru": "Республика Татарстан, Пестречинский район",
+        "oblast_id": 3055,
+        "oblast_name_ru": "Республика Татарстан",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 429,
+        "site_count": 1,
+        "total_sites_all_periods": 28,
+        "unspecified_period_sites": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.698947,
+          56.593904
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 5,
+          "стоянка": 5,
+          "грунтовый могильник": 2,
+          "курганный могильник": 2,
+          "селище": 6,
+          "поселение": 7,
+          "местонахождение": 3,
+          "археологический памятник": 5,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000002,
+        "federal_district_name_ru": "Приволжский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 50.698947,
+        "name_ru": "Кировская область, Малмыжский район",
+        "oblast_id": 4001,
+        "oblast_name_ru": "Кировская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 4015,
+        "site_count": 2,
+        "total_sites_all_periods": 36,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.317522,
+          56.059001
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 18,
+          "грунтовый могильник": 1,
+          "селище": 56,
+          "поселение": 34,
+          "местонахождение": 2,
+          "производственный комплекс": 1,
+          "археологический памятник": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000002,
+        "federal_district_name_ru": "Приволжский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 44.317522,
+        "name_ru": "Нижегородская область, Кстовский район",
+        "oblast_id": 4286,
+        "oblast_name_ru": "Hижегородская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 4328,
+        "site_count": 1,
+        "total_sites_all_periods": 116,
+        "unspecified_period_sites": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.242727,
+          56.800528
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "селище": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 28.242727,
+        "name_ru": "Псковская область, Красногородский район",
+        "oblast_id": 1933,
+        "oblast_name_ru": "Псковская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1940,
+        "site_count": 1,
+        "total_sites_all_periods": 3,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.815601,
+          64.276
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 51,
+          "местонахождение": 1,
+          "производственный комплекс": 3,
+          "наскальные изображения": 11,
+          "мегалитические сооружения": 1,
+          "каменные изваяния": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 34.815601,
+        "name_ru": "Республика Карелия, Беломорский район",
+        "oblast_id": 2912,
+        "oblast_name_ru": "Республика Карелия",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 243,
+        "site_count": 2,
+        "total_sites_all_periods": 69,
+        "unspecified_period_sites": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.023817,
+          65.900959
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 26,
+          "поселение": 2,
+          "производственный комплекс": 1,
+          "постройка": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 32.023817,
+        "name_ru": "Республика Карелия, Лоухский район",
+        "oblast_id": 2912,
+        "oblast_name_ru": "Республика Карелия",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 250,
+        "site_count": 1,
+        "total_sites_all_periods": 30,
+        "unspecified_period_sites": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.117228,
+          61.724742
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 94,
+          "селище": 2,
+          "поселение": 3,
+          "местонахождение": 2,
+          "производственный комплекс": 4,
+          "мегалитические сооружения": 2,
+          "промысловый комплекс": 1,
+          "археологический памятник": 9,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 33.117228,
+        "name_ru": "Республика Карелия, Пряжинский район",
+        "oblast_id": 2912,
+        "oblast_name_ru": "Республика Карелия",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 257,
+        "site_count": 1,
+        "total_sites_all_periods": 118,
+        "unspecified_period_sites": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.944011,
+          62.40508
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 25,
+          "селище": 3,
+          "поселение": 10,
+          "производственный комплекс": 4,
+          "монастырь": 1,
+          "наскальные изображения": 1,
+          "храм": 1,
+          "промысловый комплекс": 22,
+          "археологический памятник": 18
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 33.944011,
+        "name_ru": "Республика Карелия, Кондопожский район",
+        "oblast_id": 2912,
+        "oblast_name_ru": "Республика Карелия",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 2921,
+        "site_count": 3,
+        "total_sites_all_periods": 85,
+        "unspecified_period_sites": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.615942,
+          62.873679
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 155,
+          "селище": 3,
+          "поселение": 33,
+          "наскальные изображения": 1,
+          "археологический памятник": 2,
+          "одиночное грунтовое погребение": 1,
+          "могильник": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 34.615942,
+        "name_ru": "Республика Карелия, Медвежьегорский район",
+        "oblast_id": 2912,
+        "oblast_name_ru": "Республика Карелия",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 2925,
+        "site_count": 1,
+        "total_sites_all_periods": 198,
+        "unspecified_period_sites": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.515753,
+          64.539911
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "городское поселение": 1,
+          "укрепление": 1,
+          "храм": 1,
+          "археологический памятник": 1,
+          "городская застройка": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 40.515753,
+        "name_ru": "Архангельск",
+        "oblast_id": 3530,
+        "oblast_name_ru": "Архангельская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 857,
+        "site_count": 1,
+        "total_sites_all_periods": 7,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.494077,
+          64.892408
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 32,
+          "местонахождение": 28,
+          "производственный комплекс": 11,
+          "монастырь": 4,
+          "мегалитические сооружения": 2,
+          "храм": 1,
+          "культовое сооружение": 1,
+          "подводные исследования": 1,
+          "археологический памятник": 2,
+          "каменная ограда": 4,
+          "могильник": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 40.494077,
+        "name_ru": "Архангельская область, Приморский район",
+        "oblast_id": 3530,
+        "oblast_name_ru": "Архангельская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 860,
+        "site_count": 5,
+        "total_sites_all_periods": 89,
+        "unspecified_period_sites": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.621274,
+          62.739643
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 39.621274,
+        "name_ru": "Архангельская область, Плесецкий муниципальный округ",
+        "oblast_id": 3530,
+        "oblast_name_ru": "Архангельская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 877,
+        "site_count": 1,
+        "total_sites_all_periods": 2,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.09006,
+          61.336187
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 1,
+          "местонахождение": 12
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 44.09006,
+        "name_ru": "Архангельская область, Устьянский район",
+        "oblast_id": 3530,
+        "oblast_name_ru": "Архангельская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 878,
+        "site_count": 2,
+        "total_sites_all_periods": 15,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.197498,
+          60.489797
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 9,
+          "археологический памятник": 1,
+          "кладбище": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 40.197498,
+        "name_ru": "Вологодская область, Вожегодский район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1071,
+        "site_count": 2,
+        "total_sites_all_periods": 11,
+        "unspecified_period_sites": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.963838,
+          59.985674
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 9,
+          "селище": 1,
+          "поселение": 1,
+          "местонахождение": 9
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 45.963838,
+        "name_ru": "Вологодская область, Кичменгско-Городецкий район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1080,
+        "site_count": 2,
+        "total_sites_all_periods": 21,
+        "unspecified_period_sites": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.297413,
+          59.24887
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 9,
+          "поселение": 7,
+          "местонахождение": 2,
+          "производственный комплекс": 5
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 41.297413,
+        "name_ru": "Вологодская область, Междуреченский район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1081,
+        "site_count": 5,
+        "total_sites_all_periods": 25,
+        "unspecified_period_sites": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.572662,
+          60.488325
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "стоянка": 18,
+          "селище": 1,
+          "поселение": 3,
+          "местонахождение": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 44.572662,
+        "name_ru": "Вологодская область, Нюксенский район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1084,
+        "site_count": 8,
+        "total_sites_all_periods": 28,
+        "unspecified_period_sites": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.960307,
+          59.006485
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 5,
+          "поселение": 12,
+          "местонахождение": 1,
+          "производственный комплекс": 2,
+          "одиночный курган": 1,
+          "археологический памятник": 1,
+          "могильник": 7
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 37.960307,
+        "name_ru": "Вологодская область, Череповецкий район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1097,
+        "site_count": 1,
+        "total_sites_all_periods": 29,
+        "unspecified_period_sites": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.637537,
+          59.251843
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "селище": 4,
+          "поселение": 3,
+          "местонахождение": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 38.637537,
+        "name_ru": "Вологодская область, Шекснинский район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1098,
+        "site_count": 1,
+        "total_sites_all_periods": 11,
+        "unspecified_period_sites": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.94658,
+          59.83763
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "стоянка": 11,
+          "курганный могильник": 3,
+          "селище": 1,
+          "поселение": 32,
+          "курганная группа": 7,
+          "производственный комплекс": 2,
+          "одиночный курган": 7,
+          "археологический памятник": 12,
+          "могильник": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 35.94658,
+        "name_ru": "Вологодская область, Бабаевский район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 3735,
+        "site_count": 8,
+        "total_sites_all_periods": 82,
+        "unspecified_period_sites": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.261031,
+          59.967255
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "стоянка": 17,
+          "грунтовый могильник": 3,
+          "курганный могильник": 1,
+          "поселение": 56,
+          "городское поселение": 2,
+          "местонахождение": 5,
+          "курганная группа": 5,
+          "храм": 1,
+          "одиночный курган": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 37.261031,
+        "name_ru": "Вологодская область, Белозерский район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 3738,
+        "site_count": 3,
+        "total_sites_all_periods": 96,
+        "unspecified_period_sites": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.049905,
+          60.675636
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 4,
+          "поселение": 1,
+          "городское поселение": 1,
+          "производственный комплекс": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 46.049905,
+        "name_ru": "Вологодская область, Великоустюгский район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 3742,
+        "site_count": 1,
+        "total_sites_all_periods": 9,
+        "unspecified_period_sites": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.795901,
+          60.9618
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 22,
+          "селище": 4,
+          "поселение": 16,
+          "местонахождение": 1,
+          "производственный комплекс": 1,
+          "жальник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 36.795901,
+        "name_ru": "Вологодская область, Вытегорский район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 3746,
+        "site_count": 2,
+        "total_sites_all_periods": 46,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.622446,
+          60.131456
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "стоянка": 19,
+          "грунтовый могильник": 5,
+          "селище": 4,
+          "поселение": 5,
+          "городское поселение": 1,
+          "местонахождение": 3,
+          "курганная группа": 3,
+          "производственный комплекс": 4,
+          "монастырь": 4,
+          "храм": 1,
+          "одиночный курган": 1,
+          "археологический памятник": 4,
+          "кладбище": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 38.622446,
+        "name_ru": "Вологодская область, Кирилловский район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 3751,
+        "site_count": 1,
+        "total_sites_all_periods": 60,
+        "unspecified_period_sites": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.390051,
+          58.887481
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 5,
+          "стоянка": 1,
+          "курганный могильник": 8,
+          "селище": 6,
+          "поселение": 7,
+          "курганная группа": 1,
+          "производственный комплекс": 8,
+          "археологический комплекс": 1,
+          "археологический памятник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 36.390051,
+        "name_ru": "Вологодская область, Устюженский район",
+        "oblast_id": 3731,
+        "oblast_name_ru": "Вологодская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 3766,
+        "site_count": 3,
+        "total_sites_all_periods": 39,
+        "unspecified_period_sites": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.676991,
+          60.217776
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "поселение": 1,
+          "производственный комплекс": 4,
+          "археологический памятник": 4,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 30.676991,
+        "name_ru": "Ленинградская область, Всеволожский район",
+        "oblast_id": 4128,
+        "oblast_name_ru": "Ленинградская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 4135,
+        "site_count": 1,
+        "total_sites_all_periods": 10,
+        "unspecified_period_sites": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.465316,
+          59.862931
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "грунтовый могильник": 1,
+          "городское поселение": 1,
+          "местонахождение": 2,
+          "курган": 5,
+          "храм": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 31.465316,
+        "name_ru": "Ленинградская область, Кировский район",
+        "oblast_id": 4128,
+        "oblast_name_ru": "Ленинградская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 4147,
+        "site_count": 1,
+        "total_sites_all_periods": 12,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.726879,
+          60.530755
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "грунтовый могильник": 1,
+          "курганный могильник": 10,
+          "селище": 12,
+          "курган": 1,
+          "курганная группа": 14,
+          "мегалитические сооружения": 2,
+          "промысловый комплекс": 3,
+          "одиночный курган": 8,
+          "археологический памятник": 4
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 33.726879,
+        "name_ru": "Ленинградская область, Лодейнопольский район",
+        "oblast_id": 4128,
+        "oblast_name_ru": "Ленинградская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 4149,
+        "site_count": 2,
+        "total_sites_all_periods": 55,
+        "unspecified_period_sites": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.052482,
+          60.753284
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 13,
+          "грунтовый могильник": 1,
+          "поселение": 10,
+          "местонахождение": 9,
+          "могильник с каменными конструк": 1,
+          "укрепление": 2,
+          "мегалитические сооружения": 1,
+          "погребение": 1,
+          "археологический памятник": 1,
+          "каменная ограда": 1,
+          "крепость": 1,
+          "могильник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 30.052482,
+        "name_ru": "Ленинградская область, Приозерский район",
+        "oblast_id": 4128,
+        "oblast_name_ru": "Ленинградская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 4156,
+        "site_count": 3,
+        "total_sites_all_periods": 43,
+        "unspecified_period_sites": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.332988,
+          67.421155
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "поселение": 11,
+          "археологический памятник": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": true,
+        "lon_unwrapped": 37.332988,
+        "name_ru": "Мурманская область (без уточнения)",
+        "oblast_id": 4271,
+        "oblast_name_ru": "Мурманская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1597,
+        "site_count": 2,
+        "total_sites_all_periods": 15,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.437226,
+          69.197402
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 2,
+          "могильник с каменными конструк": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 33.437226,
+        "name_ru": "Мурманская область, Полярный",
+        "oblast_id": 4271,
+        "oblast_name_ru": "Мурманская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1602,
+        "site_count": 2,
+        "total_sites_all_periods": 3,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75876,
+          68.629965
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 18,
+          "поселение": 46,
+          "археологический памятник": 2,
+          "каменная ограда": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 31.75876,
+        "name_ru": "Мурманская область, Кольский район",
+        "oblast_id": 4271,
+        "oblast_name_ru": "Мурманская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1608,
+        "site_count": 31,
+        "total_sites_all_periods": 67,
+        "unspecified_period_sites": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.699993,
+          67.66192
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 9,
+          "поселение": 24,
+          "археологический памятник": 3,
+          "каменная ограда": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 37.699993,
+        "name_ru": "Мурманская область, Ловозерский район",
+        "oblast_id": 4271,
+        "oblast_name_ru": "Мурманская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1609,
+        "site_count": 4,
+        "total_sites_all_periods": 37,
+        "unspecified_period_sites": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.625284,
+          66.578113
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 1,
+          "стоянка": 7,
+          "поселение": 3,
+          "наскальные изображения": 19,
+          "мегалитические сооружения": 1,
+          "храм": 2,
+          "археологический памятник": 2,
+          "каменная ограда": 2
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 36.625284,
+        "name_ru": "Мурманская область, Терский район",
+        "oblast_id": 4271,
+        "oblast_name_ru": "Мурманская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1611,
+        "site_count": 1,
+        "total_sites_all_periods": 37,
+        "unspecified_period_sites": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.39899,
+          59.79503
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 1,
+          "поселение": 2,
+          "городское поселение": 3,
+          "усадьба": 3,
+          "укрепление": 1,
+          "монастырь": 1,
+          "храм": 2,
+          "подводные исследования": 2,
+          "погребение": 1,
+          "археологический памятник": 9,
+          "крепость": 1,
+          "постройка": 1,
+          "городская застройка": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": true,
+        "lon_unwrapped": 30.39899,
+        "name_ru": "г. Санкт-Петербург (без уточнения)",
+        "oblast_id": 5258,
+        "oblast_name_ru": "г. Санкт-Петербург",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 2584,
+        "site_count": 1,
+        "total_sites_all_periods": 30,
+        "unspecified_period_sites": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.117985,
+          67.676549
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 77,
+          "селище": 1,
+          "поселение": 1,
+          "местонахождение": 29,
+          "культовое сооружение": 7,
+          "одиночное грунтовое погребение": 1,
+          "ловчая яма": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000003,
+        "federal_district_name_ru": "Северо-Западный федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 53.117985,
+        "name_ru": "Ненецкий автономный округ, Заполярный район",
+        "oblast_id": 5268,
+        "oblast_name_ru": "Hенецкий автономный округ",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 2596,
+        "site_count": 2,
+        "total_sites_all_periods": 119,
+        "unspecified_period_sites": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.548667,
+          52.243881
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 1,
+          "грунтовый могильник": 1,
+          "курганный могильник": 4,
+          "поселение": 6,
+          "курганная группа": 1,
+          "производственный комплекс": 1,
+          "одиночный курган": 3
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 85.548667,
+        "name_ru": "Алтайский край, Советский район",
+        "oblast_id": 3237,
+        "oblast_name_ru": "Алтайский край",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 599,
+        "site_count": 1,
+        "total_sites_all_periods": 17,
+        "unspecified_period_sites": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.708617,
+          58.817868
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "стоянка": 98,
+          "грунтовый могильник": 4,
+          "поселение": 4,
+          "местонахождение": 37,
+          "курганная группа": 1,
+          "наскальные изображения": 4,
+          "археологический комплекс": 4,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 100.708617,
+        "name_ru": "Красноярский край, Кежемский район",
+        "oblast_id": 3353,
+        "oblast_name_ru": "Красноярский край",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 3386,
+        "site_count": 1,
+        "total_sites_all_periods": 153,
+        "unspecified_period_sites": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.925002,
+          55.920043
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 4,
+          "стоянка": 3,
+          "грунтовый могильник": 3,
+          "курганный могильник": 32,
+          "поселение": 44,
+          "курганная группа": 4,
+          "одиночный курган": 15,
+          "археологический памятник": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 76.925002,
+        "name_ru": "Новосибирская область, Венгеровский район",
+        "oblast_id": 4375,
+        "oblast_name_ru": "Новосибирская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1709,
+        "site_count": 4,
+        "total_sites_all_periods": 106,
+        "unspecified_period_sites": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.610187,
+          55.887185
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 38,
+          "стоянка": 3,
+          "грунтовый могильник": 2,
+          "курганный могильник": 12,
+          "селище": 1,
+          "поселение": 43,
+          "местонахождение": 4,
+          "курганная группа": 19,
+          "одиночный курган": 1,
+          "археологический комплекс": 2,
+          "археологический памятник": 4
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000004,
+        "federal_district_name_ru": "Сибирский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 82.610187,
+        "name_ru": "Новосибирская область, Колыванский район",
+        "oblast_id": 4375,
+        "oblast_name_ru": "Новосибирская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 1716,
+        "site_count": 1,
+        "total_sites_all_periods": 129,
+        "unspecified_period_sites": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.764682,
+          58.282571
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "селище": 1,
+          "культовое сооружение": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000005,
+        "federal_district_name_ru": "Уральский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 59.764682,
+        "name_ru": "Свердловская область, Кушва",
+        "oblast_id": 4850,
+        "oblast_name_ru": "Свердловская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 2186,
+        "site_count": 1,
+        "total_sites_all_periods": 2,
+        "unspecified_period_sites": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.176107,
+          57.571221
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "грунтовый могильник": 1,
+          "курганный могильник": 1,
+          "селище": 1,
+          "поселение": 8,
+          "курган": 1,
+          "курганная группа": 1,
+          "укрепление": 1
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000005,
+        "federal_district_name_ru": "Уральский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 67.176107,
+        "name_ru": "Тюменская область, Ярковский район",
+        "oblast_id": 5092,
+        "oblast_name_ru": "Тюменская область",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 2439,
+        "site_count": 1,
+        "total_sites_all_periods": 16,
+        "unspecified_period_sites": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.328852,
+          70.003712
+        ]
+      },
+      "properties": {
+        "admin_level": 3,
+        "all_periods_counts_by_type_ru": {
+          "городище": 2,
+          "стоянка": 67,
+          "грунтовый могильник": 1,
+          "селище": 1,
+          "поселение": 15,
+          "местонахождение": 7,
+          "культовое сооружение": 2,
+          "погребально-поминальный компле": 4,
+          "археологический памятник": 7
+        },
+        "bbox_wgs84": null,
+        "epoch_id": 21,
+        "federal_district_id": 10000005,
+        "federal_district_name_ru": "Уральский федеральный округ",
+        "is_unspecified_subregion": false,
+        "lon_unwrapped": 70.328852,
+        "name_ru": "Ямало-Ненецкий автономный округ, Ямальский район",
+        "oblast_id": 5303,
+        "oblast_name_ru": "Ямало-Ненецкий автономный округ",
+        "period_key": "early_metal_age",
+        "period_name_en": "Early Metal Age",
+        "period_name_ru": "Эпоха Раннего Металла",
+        "region_id": 2643,
+        "site_count": 1,
+        "total_sites_all_periods": 106,
+        "unspecified_period_sites": 23
+      }
+    }
+  ]
+}
