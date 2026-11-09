@@ -9,13 +9,135 @@
   http_timeout_ms: 20000,
   include_all_periods_geojson: false,
   include_all_periods_mosaic: false,
+  kriging_metadata_filename: "config/oanmap_kriging_metadata.json",
   metadata_filename: "config/oanmap_mosaic_metadata.json",
   output_geojson_subfolder: "geojson",
   output_images_subfolder: "images",
+  output_kriged_rasters_subfolder: "1.kriged_rasters",
+  output_population_rasters_subfolder: "2.population_rasters",
   png_compression_level: 6,
   tile_dilation_radius: 1,
   tile_size_px: 512,
   zoom_level: 8,
+
+  // Geographic mask, Empirical Non-Stationary Ordinary Kriging & Substrata Anchoring configuration
+  // Encompasses only the land area of the modern Russian Federation (excluding Kaliningrad),
+  // while adding in Crimea (Republic of Crimea + Sevastopol), with a strict 1900 AD cutoff.
+  kriging_config: {
+    coastal_bfs_max_distance_px: 8,
+    covariate_paths: {
+      forest_asc: "histmap/1.data_raw/metadata_HYDE/general_files/forest_wwf_cr.asc",
+      hyde_mcevedy_rasters_folder: "histmap/2.data_cleaning/landuse_HYDE/rasters_mcevedy",
+      hyde_popc_folder: "histmap/2.data_cleaning/landuse_HYDE/rasters_scaled_to_global",
+      hyde_raw_rasters_folder: "histmap/2.data_cleaning/landuse_HYDE/rasters",
+      hyde_uopp_raster: "histmap/2.data_cleaning/landuse_HYDE/rasters/uopp_2023AD.png",
+      kk10_fallback_folder: "histmap/2.data_cleaning/population_KK10LUH2/rasters_KK10LUH2_2._global_scaling",
+      maxln_asc: "histmap/1.data_raw/metadata_HYDE/general_files/maxln_cr.asc",
+      nelson_regions_png: "histmap/2.data_cleaning/population_KK10LUH2/config/nelson_regions.png",
+      sub_iso_asc: "histmap/1.data_raw/metadata_HYDE/general_files/sub_iso_cr.asc",
+      urban_mask_buffer_radius: 1,
+      urban_mask_inpaint_radius: 4,
+      urban_outlier_spike_ratio: 8.0,
+      urban_uopp_threshold: 10.0
+    },
+    crimea_bbox: {
+      max_lat: 46.23,
+      max_lon: 36.66,
+      min_lat: 44.35,
+      min_lon: 32.45,
+      peninsula_interior_max_lat: 45.90
+    },
+    crimea_oblast_ids: [5319, 5346],
+    cshapes_crimea_gwcode: 365,
+    cshapes_crimea_gweyear: 2019,
+    dimensionless_lag_bins: [1.5, 2.5, 4.0, 6.0, 9.0, 13.0, 18.0, 25.0, 35.0, 50.0],
+    earth_radius_km: 6371,
+    excluded_oblast_ids: [1217],
+    grid_height: 2160,
+    grid_width: 4320,
+    kaliningrad_bbox: {
+      max_lat: 56.5,
+      max_lon: 25.0,
+      min_lat: 53.0,
+      min_lon: 18.0
+    },
+    russia_geocode_rgb: [20, 114, 30],
+
+    // Chronological horizons defined by IA RAS documented period boundaries (-10000 to 1900 AD).
+    // Active periods at each horizon are summed directly in their empirical site-count units.
+    chronological_horizons: [
+      {
+        active_periods: ["stone_age"],
+        key: "early_stone_age_horizon",
+        year: -10000
+      },
+      {
+        active_periods: ["stone_age", "eneolithic"],
+        key: "eneolithic_onset_horizon",
+        year: -4500
+      },
+      {
+        active_periods: ["eneolithic", "bronze_age", "palaeometal", "early_metal_age"],
+        key: "early_bronze_transition_horizon",
+        year: -3000
+      },
+      {
+        active_periods: ["bronze_age", "palaeometal", "early_metal_age"],
+        key: "middle_bronze_horizon",
+        year: -1500
+      },
+      {
+        active_periods: ["iron_age", "classical_antiquity", "palaeometal", "early_metal_age"],
+        key: "early_iron_classical_horizon",
+        year: -500
+      },
+      {
+        active_periods: ["iron_age", "classical_antiquity"],
+        key: "late_iron_classical_horizon",
+        year: 0
+      },
+      {
+        active_periods: ["iron_age", "classical_antiquity", "migration_period", "middle_ages"],
+        key: "migration_onset_horizon",
+        year: 400
+      },
+      {
+        active_periods: ["migration_period", "middle_ages"],
+        key: "early_medieval_transition_horizon",
+        year: 700
+      },
+      {
+        active_periods: ["middle_ages"],
+        key: "high_middle_ages_horizon",
+        year: 1000
+      },
+      {
+        active_periods: ["middle_ages", "early_modern_17_18c"],
+        key: "early_modern_onset_horizon",
+        year: 1600
+      },
+      {
+        active_periods: ["middle_ages", "early_modern_17_18c", "modern"],
+        key: "modern_onset_horizon",
+        year: 1800
+      },
+      {
+        active_periods: ["middle_ages", "early_modern_17_18c", "modern"],
+        key: "late_imperial_1900_horizon",
+        year: 1900
+      }
+    ],
+
+    // 48 HYDE benchmark years up to the 1900 AD cutoff
+    hyde_years: [
+      -10000, -9000, -8000, -7000, -6000, -5000, -4000, -3000, -2000, -1000,
+      0, 100, 200, 300, 400, 500, 600, 700, 800, 900,
+      1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700,
+      1710, 1720, 1730, 1740, 1750, 1760, 1770, 1780, 1790,
+      1800, 1810, 1820, 1830, 1840, 1850, 1860, 1870, 1880, 1890,
+      1900
+    ]
+  },
 
   // Canonical zoom-8 512px tile extent covering all IA RAS sites from Kaliningrad (x=70, 16.875E)
   // continuously across 180E into Eastern Chukotka (unwrapped x=131 -> tile x=3, 191.25E / 168.75W),
