@@ -978,7 +978,7 @@ let SitesIARASResidualKriging = require("./SitesIARASResidualKriging.js");
       //Declare local instance variables
       let bu_dir = path.join(
         mask_data.project_root,
-        "histmap/1.data_raw/population_regional/russia/_shared/sites_belarus_ukraine/geojson"
+        "histmap/1.data_raw/population_regional/POLARIS/_shared/sites_belarus_ukraine/geojson"
       );
       let earth_radius_km = config.kriging_config.earth_radius_km;
       let max_dist_km = 250;
