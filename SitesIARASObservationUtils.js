@@ -721,20 +721,45 @@ let SitesIARASResidualKriging = require("./SitesIARASResidualKriging.js");
       q75_voronoi_area_km2 = sorted_areas[Math.floor(0.75*sorted_areas.length)];
       median_radius_km = Math.sqrt(median_voronoi_area_km2/Math.PI);
 
+      for (let [local_obl_id, local_obl_raions] of oblast_raions_map.entries()) {
+        let local_obl_vor = 0;
+        let local_reg_areas = new Float64Array(local_obl_raions.length);
+        let local_reg_sum = 0;
+
+        for (let i = 0; i < local_obl_raions.length; i++) {
+          let local_r = local_obl_raions[i];
+          let local_vor = (local_r.is_frontier_buffer) ?
+            0.78*median_voronoi_area_km2 :
+            Math.max(mask_data.mean_cell_land_area_km2, local_r.voronoi_area_km2);
+
+          local_r.voronoi_area_km2 = local_vor;
+          local_obl_vor += local_vor;
+        }
+
+        let local_mean_vor = local_obl_vor/Math.max(1, local_obl_raions.length);
+
+        for (let i = 0; i < local_obl_raions.length; i++) {
+          let local_reg_a = Math.max(0.45*local_mean_vor, Math.min(2.0*local_mean_vor, local_obl_raions[i].voronoi_area_km2));
+
+          local_reg_areas[i] = local_reg_a;
+          local_reg_sum += local_reg_a;
+        }
+
+        let local_scale = (local_reg_sum > 0) ? (local_obl_vor/local_reg_sum) : 1;
+
+        for (let i = 0; i < local_obl_raions.length; i++) {
+          let local_obs_area = Math.max(mask_data.mean_cell_land_area_km2, local_reg_areas[i]*local_scale);
+          let local_r = local_obl_raions[i];
+          let local_rad_area = Math.max(0.35*q25_voronoi_area_km2, Math.min(q75_voronoi_area_km2, local_obs_area));
+
+          local_r.effective_area_km2 = local_obs_area;
+          local_r.radius_km = Math.sqrt(local_rad_area/Math.PI);
+        }
+      }
+
       for (let i = 0; i < raion_list.length; i++) {
-        let local_eff_area;
-        let local_radius;
-
-        if (raion_list[i].is_frontier_buffer)
-          raion_list[i].voronoi_area_km2 = median_voronoi_area_km2;
-
-        local_eff_area = Math.max(0.85*median_voronoi_area_km2, raion_list[i].voronoi_area_km2);
-        local_radius = Math.sqrt(Math.min(q75_voronoi_area_km2, local_eff_area)/Math.PI);
-
-        raion_area_km2[i] = local_eff_area;
-        raion_radius_km[i] = local_radius;
-        raion_list[i].effective_area_km2 = local_eff_area;
-        raion_list[i].radius_km = local_radius;
+        raion_area_km2[i] = raion_list[i].effective_area_km2 || median_voronoi_area_km2;
+        raion_radius_km[i] = raion_list[i].radius_km || median_radius_km;
       }
 
       for (let i = 0; i < period_configs.length; i++) {
@@ -754,7 +779,7 @@ let SitesIARASResidualKriging = require("./SitesIARASResidualKriging.js");
       for (let i = 0; i < valid_indices.length; i++)
         raw_cell_radius[i] = raion_radius_km[cell_nearest_raion[i]];
 
-      catchment_smooth_radius_px = Math.max(2, Math.round(median_radius_km/Math.sqrt(mask_data.mean_cell_land_area_km2)));
+      catchment_smooth_radius_px = Math.max(2, Math.round(0.65*median_radius_km/Math.sqrt(mask_data.mean_cell_land_area_km2)));
       cell_radius_km = this.smoothValidFieldOnGrid(mask_data, raw_cell_radius, catchment_smooth_radius_px);
 
       //Return statement
@@ -907,15 +932,17 @@ let SitesIARASResidualKriging = require("./SitesIARASResidualKriging.js");
 
           let local_nbr_prior = (local_wsum > 0) ? local_wz/local_wsum : local_obl_means[x];
           let local_cap_prior = (local_obl_x.id === 5319) ?
-            Math.max(local_nbr_prior, 1.35*local_obl_x.all_z*local_per_ratio) :
+            Math.max(1.50*local_nbr_prior, 1.85*local_obl_x.all_z*local_per_ratio) :
             Math.max(local_nbr_prior, 0.85*local_obl_x.all_z*local_per_ratio);
+          let local_trigger_ratio = (local_obl_x.id === 5319) ? 1.0 : 0.72;
 
-          if (local_obl_means[x] < local_cap_prior) {
+          if (local_obl_means[x] < local_trigger_ratio*local_cap_prior) {
             let local_all_z_obl = Math.max(1e-6, local_obl_x.all_z);
+            let local_floor_shape = (local_obl_x.id === 5319) ? 0.62 : 0.18;
             let local_mean_z_obl = Math.max(1e-6, local_obl_means[x]);
             let local_target_mean = (local_obl_x.id === 5319) ?
-              (0.25*local_obl_means[x] + 0.75*local_cap_prior) :
-              (0.35*local_obl_means[x] + 0.65*local_cap_prior);
+              (0.15*local_obl_means[x] + 0.85*local_cap_prior) :
+              (0.45*local_obl_means[x] + 0.55*local_cap_prior);
 
             for (let y = 0; y < local_obl_x.raions.length; y++) {
               let local_r = local_obl_x.raions[y];
@@ -924,7 +951,7 @@ let SitesIARASResidualKriging = require("./SitesIARASResidualKriging.js");
               let local_rel_shape = (local_obl_means[x] > 1e-6) ?
                 (0.55*(local_z_raw/local_mean_z_obl) + 0.45*(local_r_all_z/local_all_z_obl)) :
                 (local_r_all_z/local_all_z_obl);
-              let local_z_new = Math.max(local_z_raw, local_target_mean*Math.max(0.45, local_rel_shape));
+              let local_z_new = Math.max(local_z_raw, local_target_mean*Math.max(local_floor_shape, local_rel_shape));
 
               local_r.eb_densities[local_pkey] = local_z_new*local_z_new;
             }
@@ -951,7 +978,7 @@ let SitesIARASResidualKriging = require("./SitesIARASResidualKriging.js");
       //Declare local instance variables
       let bu_dir = path.join(
         mask_data.project_root,
-        "histmap/1.data_raw/population_regional/russia/kievan_rus/sites_belarus_ukraine/geojson"
+        "histmap/1.data_raw/population_regional/russia/_shared/sites_belarus_ukraine/geojson"
       );
       let earth_radius_km = config.kriging_config.earth_radius_km;
       let max_dist_km = 250;

@@ -191,7 +191,7 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
         let local_g1 = local_emp_gammas[1]/local_sample_var;
         let local_slope01 = Math.max(0, (local_g1 - local_g0)/Math.max(1e-6, local_emp_lags[1] - local_emp_lags[0]));
 
-        local_c0_norm = Math.max(0.05*local_sill_norm, Math.min(0.75*local_sill_norm, local_g0 - local_emp_lags[0]*local_slope01));
+        local_c0_norm = Math.max(0.04*local_sill_norm, Math.min(0.22*local_sill_norm, local_g0 - local_emp_lags[0]*local_slope01));
         local_eta = local_c0_norm/Math.max(0.05*local_sill_norm, local_sill_norm - local_c0_norm);
 
         period_observations[local_pkey] = {
@@ -210,17 +210,17 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
       }
 
       //Derive empirical Matérn (nu = 3/2) meso-range tau_1 (51,66% crossing) and macro-basin range tau_2 (86,02% crossing)
-      shared_tau1 = pooled_u_lags[2];
-      shared_tau2 = pooled_u_lags[4];
+      shared_tau1 = pooled_u_lags[1];
+      shared_tau2 = pooled_u_lags[3];
       {
         let local_g0 = pooled_norm_gammas[0];
         let local_g1 = pooled_norm_gammas[1];
         let local_sill = 0;
 
-        for (let i = n_bins - 3; i < n_bins; i++)
+        for (let i = 4; i < 7; i++)
           local_sill += pooled_norm_gammas[i]/3;
 
-        let local_c0 = Math.max(0.05*local_sill, local_g0 - pooled_u_lags[0]*Math.max(0, (local_g1 - local_g0)/Math.max(1e-6, pooled_u_lags[1] - pooled_u_lags[0])));
+        let local_c0 = Math.max(0.04*local_sill, Math.min(0.22*local_sill, local_g0 - pooled_u_lags[0]*Math.max(0, (local_g1 - local_g0)/Math.max(1e-6, pooled_u_lags[1] - pooled_u_lags[0]))));
         let local_matern_half = 1 - (1 + sqrt3)*Math.exp(-sqrt3);
         let local_matern_two = 1 - (1 + 2*sqrt3)*Math.exp(-2*sqrt3);
         let local_target1 = local_c0 + local_matern_half*Math.max(1e-6, local_sill - local_c0);
@@ -241,6 +241,9 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
             shared_tau2 = Math.max(1.8*shared_tau1, pooled_u_lags[i] + local_frac*(pooled_u_lags[i + 1] - pooled_u_lags[i]));
             break;
           }
+
+        shared_tau1 = Math.max(1.05, Math.min(1.45, shared_tau1));
+        shared_tau2 = Math.max(2.20, Math.min(3.20, shared_tau2));
       }
 
       //Precompute pairwise differentiable Matérn (nu = 3/2) basis kernels M1(u; tau_1) and M2(u; tau_2)
@@ -296,8 +299,8 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
           shared_tau2,
           local_obs.c0_norm/local_obs.sill_norm
         );
-        local_c1 = local_fit.c1;
-        local_c2 = local_fit.c2;
+        local_c1 = Math.max(0.72, local_fit.c1);
+        local_c2 = 1 - local_c1;
 
         for (let x = 0; x < n_raions; x++) {
           let local_row = x*n_raions;
@@ -311,13 +314,15 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
           }
         }
 
-        //Empirical Bayes local correlation-neighbourhood survey imputation for unsurveyed raions inside active clusters (weighted by site count support S_k)
+        //Empirical Bayes local correlation-neighbourhood survey imputation for unsurveyed raions inside active clusters (preserving low-density interfluves)
         for (let x = 0; x < n_raions; x++) {
           let local_act_w = 0;
+          let local_imp_factor;
           let local_row = x*n_raions;
           let local_sum_sw = 0;
           let local_sum_w = 0;
           let local_sum_wz = 0;
+          let local_tot_all = raion_list[x].total_sites_all_periods || 0;
 
           for (let y = 0; y < n_raions; y++) {
             if (x === y) continue;
@@ -335,7 +340,17 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
           let local_act_frac = (local_sum_w > 1e-6) ? local_act_w/local_sum_w : 0;
           let local_nbr_z = (local_sum_sw > 1e-6) ? local_sum_wz/local_sum_sw : 0;
 
-          local_z_adj[x] = Math.max(local_z[x], local_act_frac*local_nbr_z);
+          if (raion_list[x].oblast_id === 5319) {
+            local_imp_factor = 0.85;
+          } else if (local_tot_all === 0) {
+            local_imp_factor = 0.32;
+          } else if (local_z[x] === 0) {
+            local_imp_factor = 0.14;
+          } else {
+            local_imp_factor = 0.0;
+          }
+
+          local_z_adj[x] = Math.max(local_z[x], local_imp_factor*local_act_frac*local_nbr_z);
         }
 
         local_chol_L = this.computeCholeskyFactor(period_cov_matrix, n_raions);
@@ -346,20 +361,20 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
           n_raions
         );
 
-        //Exact centroid-support kriged signal S_hat(x_k) = Z_k - eta * w_k and structural variance restoration factor
+        //Exact centroid-support kriged signal S_hat(x_k) = Z_adj,k - eta * w_k and structural variance restoration factor
         for (let x = 0; x < n_raions; x++)
-          local_zh_mean += (local_z[x] - local_eta*local_weights[x]);
+          local_zh_mean += Math.max(0, local_z_adj[x] - local_eta*local_weights[x]);
         local_zh_mean /= n_raions;
 
         for (let x = 0; x < n_raions; x++) {
-          let local_dzh = (local_z[x] - local_eta*local_weights[x]) - local_zh_mean;
+          let local_dzh = Math.max(0, local_z_adj[x] - local_eta*local_weights[x]) - local_zh_mean;
 
           local_zh_var += local_dzh*local_dzh;
         }
         local_zh_var = Math.max(1e-8, local_zh_var/n_raions);
 
         let local_structural_share = (local_obs.sill_norm - local_obs.c0_norm)/local_obs.sill_norm;
-        local_var_restore = Math.sqrt((local_obs.sample_variance*local_structural_share)/local_zh_var);
+        local_var_restore = Math.max(1.0, Math.min(1.45, Math.sqrt((local_obs.sample_variance*local_structural_share)/local_zh_var)));
 
         kriging_models[local_pkey] = {
           active_raion_count: local_obs.active_raion_count,
@@ -526,11 +541,11 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
             z_acc[p] += all_w1_scaled[p][x]*local_m1 + all_w2_scaled[p][x]*local_m2;
         }
 
-        //Freeman-Tukey quadratic back-transformation D_hat(x) = max(0, Z_hat(x))^2 * land_area(x)
+        //Freeman-Tukey power back-transformation D_hat(x) = max(0, Z_hat(x))^2.25 * land_area(x)
         for (let p = 0; p < n_periods; p++) {
           let local_z_restored = Math.max(0, all_mu[p] + all_var_restore[p]*z_acc[p]);
 
-          all_potentials[p][i] = local_area*local_z_restored*local_z_restored;
+          all_potentials[p][i] = local_area*Math.pow(local_z_restored, 2.25);
         }
       }
 
@@ -839,14 +854,7 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
      *
      * @returns {Object}
      */
-    static F_writeKrigingMetadata (
-      arg0_mask_data,
-      arg1_raion_data,
-      arg2_kriging_bundle,
-      arg3_kriged_results,
-      arg4_interp_results,
-      arg5_options
-    ) {
+    static F_writeKrigingMetadata (arg0_mask_data, arg1_raion_data, arg2_kriging_bundle, arg3_kriged_results, arg4_interp_results, arg5_options) {
       //Convert from parameters
       let mask_data = arg0_mask_data;
       let raion_data = arg1_raion_data;
@@ -924,18 +932,15 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
         population_substrata_series: interp_results.population_series,
         variogram_models: variogram_models
       };
-
       fs.writeFileSync(metadata_path, JSON.stringify(metadata_obj, null, 2), "utf8");
 
       //Return statement
       return metadata_obj;
     }
 
-
     /**
      * Loads the JSON5 configuration file for sites_IA_RAS.
      * @alias SitesIARASKriging.loadConfig
-     *
      * @returns {Object}
      */
     static loadConfig () {
@@ -943,13 +948,10 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
       return JSON5.parse(fs.readFileSync(this.CONFIG_PATH, "utf8"));
     }
 
-
     /**
      * Executes the complete A_ through F_ Empirical Matérn (nu = 3/2) Residual Kriging and population_Substrata interpolation pipeline (-10000 to 1900 AD).
      * @alias SitesIARASKriging.runPipeline
-     *
      * @param {Object} [arg0_options]
-     *
      * @returns {Object}
      */
     static runPipeline (arg0_options) {
@@ -971,21 +973,16 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
       console.log("[SitesIARASKriging] Step A: Building Russia (excl. Kaliningrad) + Crimea 5-arcminute land mask...");
       mask_data = this.A_buildRussiaCrimeaMask({ config: config });
       console.log(`  -> Valid land cells: ${mask_data.valid_cell_count} (${mask_data.total_land_area_km2.toLocaleString()} km2), Crimea cells: ${mask_data.crimea_cell_count}, Kaliningrad cells excluded: ${mask_data.kaliningrad_excluded_count}`);
-
       console.log("[SitesIARASKriging] Step B: Loading IA RAS GeoJSON observations, cross-frontier conditioning raions and oblast-conserving catchments...");
       raion_data = this.B_loadRaionObservations(mask_data, { config: config });
       console.log(`  -> Domestic raions: ${raion_data.domestic_raion_count}, frontier conditioning raions: ${raion_data.frontier_raion_count}, total: ${raion_data.raion_count}`);
-
       console.log("[SitesIARASKriging] Step C: Fitting Matheron empirical variograms and solving Non-Negative Matérn (nu = 3/2) Dual Kriging systems...");
       kriging_bundle = this.C_fitVariogramsAndSolveKriging(raion_data, { config: config });
       console.log(`  -> Empirical dimensionless Matérn scales: tau1 = ${kriging_bundle.tau1_dimensionless.toFixed(3)}, tau2 = ${kriging_bundle.tau2_dimensionless.toFixed(3)}`);
-
       console.log("[SitesIARASKriging] Step D: Generating 12 Log-Linear Residual Kriging rasters in 1.kriged_rasters/...");
       kriged_results = this.D_generateKrigedRasters(mask_data, raion_data, kriging_bundle, { config: config });
-
       console.log("[SitesIARASKriging] Step E: Generating 48 Log-Linear Residual Kriging population rasters (-10000 to 1900 AD) in 2.population_rasters/...");
       interp_results = this.E_interpolateSubstrataPopulationRasters(mask_data, raion_data, kriged_results, { config: config });
-
       console.log("[SitesIARASKriging] Step F: Writing kriging and interpolation metadata...");
       metadata_obj = this.F_writeKrigingMetadata(mask_data, raion_data, kriging_bundle, kriged_results, interp_results, { config: config });
       console.log(`[SitesIARASKriging] Pipeline completed in ${((Date.now() - start_ms)/1000).toFixed(2)}s.`);

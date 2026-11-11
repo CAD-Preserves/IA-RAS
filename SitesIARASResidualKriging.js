@@ -58,10 +58,10 @@ let SitesIARASGridUtils = require("./SitesIARASGridUtils.js");
       let grid_w = mask_data.grid_width;
       let hyde_grid;
       let hyde_path;
-      let hyde_year = (typeof year_or_period === "number") ? Math.max(0, Math.min(1900, year_or_period)) : 1000;
+      let hyde_year = (typeof year_or_period === "number") ? Math.max(-10000, Math.min(1900, year_or_period)) : 1000;
       let joint_density;
       let land_area_grid = mask_data.land_area_grid;
-      let macro_px = 18;
+      let macro_px = 10;
       let mask_grid = mask_data.mask_grid;
       let mod_urban_mask;
       let n_valid = mask_data.valid_cell_count;
@@ -78,7 +78,7 @@ let SitesIARASGridUtils = require("./SitesIARASGridUtils.js");
       let target_indices = [];
       let total_pixels = grid_w*grid_h;
       let valid_indices = mask_data.valid_indices;
-      let win_px = 9;
+      let win_px = 7;
       let year_label = (hyde_year < 0) ? `${Math.abs(hyde_year)}BC` : `${hyde_year}AD`;
 
       hyde_path = path.join(
@@ -106,11 +106,19 @@ let SitesIARASGridUtils = require("./SitesIARASGridUtils.js");
         let local_lon = -180 + ((i % grid_w) + 0.5)*(360/grid_w);
 
         if (
-          local_lat >= 44.5 &&
-          local_lat <= 60.5 &&
-          local_lon >= 21.0 &&
+          local_lat >= 46.25 &&
+          local_lat <= 71.5 &&
+          local_lon >= 20.0 &&
           local_lon <= 41.5 &&
-          (local_iso === 112 || local_iso === 233 || local_iso === 428 || local_iso === 440 || local_iso === 804)
+          (
+            local_iso === 112 ||
+            local_iso === 233 ||
+            local_iso === 246 ||
+            local_iso === 428 ||
+            local_iso === 440 ||
+            local_iso === 578 ||
+            local_iso === 804
+          )
         ) {
           ext_mask[i] = 1;
           target_indices.push(i);
@@ -159,15 +167,16 @@ let SitesIARASGridUtils = require("./SitesIARASGridUtils.js");
           let local_lat = 90 - (Math.floor(local_gidx/grid_w) + 0.5)*(180/grid_h);
           let local_lon = -180 + ((local_gidx % grid_w) + 0.5)*(360/grid_w);
 
-          if (local_lat >= 48.0 && local_lat <= 59.5 && local_lon >= 27.0 && local_lon <= 37.5) {
+          if (local_lat >= 52.0 && local_lat <= 62.0 && local_lon >= 27.0 && local_lon <= 36.0) {
             local_rus_sum += valid_field[i];
             local_rus_area += cell_area[i];
           }
         }
         for (let i = 0; i < target_indices.length; i++) {
           let local_gidx = target_indices[i];
+          let local_lat = 90 - (Math.floor(local_gidx/grid_w) + 0.5)*(180/grid_h);
 
-          if (hyde_grid[local_gidx] > 0) {
+          if (local_lat >= 52.0 && local_lat <= 62.0 && hyde_grid[local_gidx] > 0) {
             local_ext_sum += hyde_grid[local_gidx];
             local_ext_area += land_area_grid[local_gidx];
           }
@@ -208,7 +217,12 @@ let SitesIARASGridUtils = require("./SitesIARASGridUtils.js");
           let local_ny = local_cy + bfs_dirs[x][0];
 
           if (local_nx >= 0 && local_nx < grid_w && local_ny >= 0 && local_ny < grid_h) {
+            let local_nlat = 90 - (local_ny + 0.5)*(180/grid_h);
+            let local_nlon = -180 + (local_nx + 0.5)*(360/grid_w);
             let local_nidx = local_ny*grid_w + local_nx;
+
+            //Never propagate mainland Kherson Wild Fields frontier feathering south across Perekop/Sivash into Crimea
+            if (local_nlat < 46.23 && local_nlon >= 32.45 && local_nlon <= 36.68) continue;
 
             if (mask_grid[local_nidx] === 1 && dist_to_west[local_nidx] > local_d + 1) {
               dist_to_west[local_nidx] = local_d + 1;
@@ -267,8 +281,8 @@ let SitesIARASGridUtils = require("./SitesIARASGridUtils.js");
             let local_alpha = 0.5*(1 + Math.cos(Math.PI*(local_d - 1)/Math.max(1, macro_px)));
             let local_clamped;
             let local_ext_iso = Math.floor(Math.round(sub_iso_grid[local_near_idx])/1000);
-            let local_max_r = (local_ext_iso === 233 || local_ext_iso === 428) ? 1.65 : 2.80;
-            let local_min_r = (local_ext_iso === 233 || local_ext_iso === 428) ? 0.55 : 0.35;
+            let local_max_r = (local_ext_iso === 233 || local_ext_iso === 246 || local_ext_iso === 428 || local_ext_iso === 578) ? 1.40 : 1.75;
+            let local_min_r = (local_ext_iso === 233 || local_ext_iso === 246 || local_ext_iso === 428 || local_ext_iso === 578) ? 0.65 : 0.55;
             let local_ratio = (local_ext_pop/local_ext_area)/Math.max(1e-6, local_rus_pop/local_rus_area);
 
             local_clamped = Math.max(local_min_r, Math.min(local_max_r, local_ratio));
@@ -496,14 +510,14 @@ let SitesIARASGridUtils = require("./SitesIARASGridUtils.js");
       }
 
       //Within-partition local positive normalisation preserving 100% of 5-arcminute river-valley and topographic detail
-      f_hab_smooth = this.smoothValidFieldOnGrid(mask_data, hab_ind, 2*bio_covs.catchment_px);
+      f_hab_smooth = this.smoothValidFieldOnGrid(mask_data, hab_ind, Math.max(1, bio_covs.catchment_px));
       decliffed_d = this.smoothWithinPartitionPositive(
         mask_data,
         raw_sqrt_d,
         part_id,
         part_sum,
         part_cnt,
-        2*bio_covs.meso_px
+        Math.max(5, bio_covs.meso_px)
       );
 
       for (let i = 0; i < n_valid; i++)
@@ -555,11 +569,16 @@ let SitesIARASGridUtils = require("./SitesIARASGridUtils.js");
 
       //Declare local instance variables
       let beta = new Float64Array(3);
+      let b0_eff;
+      let b1_eff;
+      let b2_eff;
+      let b_sum;
       let cell_area = mask_data.cell_land_area;
       let cell_raion = raion_data.cell_nearest_raion;
       let dom_count = raion_data.domestic_raion_count || raion_data.raion_count;
       let m_cell = new Float32Array(mask_data.valid_cell_count);
       let m_macro;
+      let macro_rad = Math.max(4, Math.round(0.75*meso_px));
       let n_covs = 3;
       let n_valid = mask_data.valid_cell_count;
       let r_eco_mean = new Float64Array(dom_count);
@@ -629,19 +648,24 @@ let SitesIARASGridUtils = require("./SitesIARASGridUtils.js");
           beta[x] = (local_diag > 1e-12) ? Math.max(1e-4, local_rhs/local_diag) : 1e-4;
         }
 
+      b_sum = Math.max(1e-8, beta[0] + beta[1] + beta[2]);
+      b0_eff = 0.50*(beta[0]/b_sum) + 0.22;
+      b1_eff = 0.50*(beta[1]/b_sum) + 0.20;
+      b2_eff = 0.50*(beta[2]/b_sum) + 0.08;
+
       //Evaluate 5-arcminute covariate regression trend m_hat(x) on all inhabited cells
       for (let i = 0; i < n_valid; i++)
         if (u_hab[i] > 0)
-          m_cell[i] = u_hab[i]*(beta[0] + beta[1]*u_nat[i] + beta[2]*u_eco[i]);
+          m_cell[i] = u_hab[i]*(b0_eff + b1_eff*u_nat[i] + b2_eff*u_eco[i]);
 
-      //Evaluate meso-scale positive-cell regional mean m_macro(x) at the empirical Matérn range meso_px
-      m_macro = this.smoothPositiveFieldOnGrid(mask_data, m_cell, meso_px);
+      //Evaluate meso-scale positive-cell regional mean m_macro(x) at tightened scale macro_rad
+      m_macro = this.smoothPositiveFieldOnGrid(mask_data, m_cell, macro_rad);
 
       for (let i = 0; i < n_valid; i++)
         if (m_cell[i] > 0 && m_macro[i] > 0) {
-          let local_ratio = m_cell[i]/m_macro[i];
+          let local_ratio = Math.min(3.2, m_cell[i]/m_macro[i]);
 
-          weights[i] = local_ratio*local_ratio;
+          weights[i] = Math.pow(local_ratio, 2.25);
         }
 
       //Return statement
@@ -805,27 +829,38 @@ let SitesIARASGridUtils = require("./SitesIARASGridUtils.js");
         part_id[i] = local_pid;
 
         f_raw[i] = local_f;
-        mean_maxln += Math.sqrt(Math.max(0, maxln_grid[local_gidx]));
+        mean_maxln += Math.pow(Math.max(0, maxln_grid[local_gidx]), 0.80);
       }
       mean_maxln = Math.max(1e-4, mean_maxln/n_valid);
 
-      f_pass1 = this.smoothValidFieldOnGrid(mask_data, f_raw, 2*catchment_px);
-      f_forest_smooth = this.smoothValidFieldOnGrid(mask_data, f_pass1, 2*catchment_px);
+      f_pass1 = this.smoothValidFieldOnGrid(mask_data, f_raw, Math.max(2, catchment_px));
+      f_forest_smooth = this.smoothValidFieldOnGrid(mask_data, f_pass1, Math.max(2, catchment_px));
 
       for (let i = 0; i < n_valid; i++) {
         let local_ff = Math.max(0, Math.min(1, f_forest_smooth[i]));
         let local_gidx = valid_indices[i];
         let local_hermite = local_ff*local_ff*(3 - 2*local_ff);
+        let local_is_crimea = false;
         let local_lat = 90 - (Math.floor(local_gidx/grid_w) + 0.5)*(180/grid_h);
         let local_lon = -180 + ((local_gidx % grid_w) + 0.5)*(360/grid_w);
-        let local_unat = Math.sqrt(Math.max(0, maxln_grid[local_gidx]))/mean_maxln;
+        let local_unat = Math.pow(Math.max(0, maxln_grid[local_gidx]), 0.80)/mean_maxln;
+
+        if (
+          local_lat >= 44.35 &&
+          local_lat <= 46.23 &&
+          local_lon >= 32.45 &&
+          local_lon <= 36.68 &&
+          !(local_lat > 45.45 && local_lon > 35.25)
+        ) local_is_crimea = true;
 
         u_nat[i] = local_unat;
         u_eco[i] = 4*local_ff*(1 - local_ff);
         clim_envelope[i] = 1.0;
 
-        //Pre-1700 AD Wild Fields & Pontic-Caspian steppe envelope across Southern Russia & Russian Donbas
-        if (local_lat < 53.5 && local_lon < 54.0) {
+        //Pre-1700 AD Wild Fields & Pontic-Caspian steppe envelope across Southern Russia & Russian Donbas (exempting Crimea)
+        if (local_is_crimea) {
+          steppe_envelope[i] = (local_lat < 45.35 || local_lon > 35.15 || local_lon < 33.65) ? 1.0 : 0.85;
+        } else if (local_lat < 53.5 && local_lon < 54.0) {
           let local_lat_w = Math.max(0, Math.min(1, (53.5 - local_lat)/2.5));
           let local_lon_w = Math.max(0, Math.min(1, (54.0 - local_lon)/4.0));
           let local_region_w = local_lat_w*local_lon_w;
