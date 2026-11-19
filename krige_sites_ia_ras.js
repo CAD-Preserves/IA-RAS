@@ -3,6 +3,7 @@ let fs = require("fs");
 let JSON5 = require("json5");
 let path = require("path");
 let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
+let { ViscountDasymetricResidualSolver } = require(path.resolve(__dirname, "../../../../../3.data_transform/population_Substrata.viscount/ViscountDasymetricResidualSolver.js"));
 
 //Initialise functions
 {
@@ -477,141 +478,40 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
       meso_smooth_px = Math.max(4, Math.round((kriging_bundle.tau1_dimensionless*raion_data.median_radius_km)/Math.sqrt(mask_data.mean_cell_land_area_km2)));
       bio_covs = this.loadBiophysicalCovariates(mask_data, raion_data, config, meso_smooth_px);
 
-      //Pre-scale Dual Ordinary Kriging weights by each period's WLS structural coefficients (c1, c2)
+      let dasy_surface = ViscountDasymetricResidualSolver.D_evaluatePolarisDasymetricDomain(
+        mask_data,
+        raion_data,
+        kriging_bundle,
+        config,
+        __dirname
+      );
+      let dasy_hab = (dasy_surface.bio_covs && dasy_surface.bio_covs.hab_mask) ? dasy_surface.bio_covs.hab_mask : null;
+
       for (let i = 0; i < n_periods; i++) {
-        let local_m = kriging_models[period_configs[i].key];
-        let local_w1 = new Float32Array(n_raions);
-        let local_w2 = new Float32Array(n_raions);
-
-        all_mu[i] = local_m.gls_mean;
-        all_var_restore[i] = local_m.centroid_variance_restoration;
-        all_potentials.push(new Float32Array(n_valid));
-
-        for (let x = 0; x < n_raions; x++) {
-          local_w1[x] = local_m.c1_weight*local_m.dual_weights[x];
-          local_w2[x] = local_m.c2_weight*local_m.dual_weights[x];
-        }
-        all_w1_scaled.push(local_w1);
-        all_w2_scaled.push(local_w2);
-      }
-
-      //Single-pass evaluation of all 12 differentiable Matérn (nu = 3/2) Ordinary Kriging fields across all 412,959 Russia+Crimea cells
-      for (let i = 0; i < n_valid; i++) {
-        let local_area = cell_land_area[i];
-        let local_cx = cell_ux[i];
-        let local_cy = cell_uy[i];
-        let local_cz = cell_uz[i];
-        let local_ri = cell_r[i];
-        let local_ri2 = local_ri*local_ri;
-
-        for (let p = 0; p < n_periods; p++)
-          z_acc[p] = 0;
-
-        for (let x = 0; x < n_raions; x++) {
-          let local_dot = local_cx*raion_ux[x] + local_cy*raion_uy[x] + local_cz*raion_uz[x];
-
-          if (local_dot <= min_dot_per_raion[x]) continue;
-
-          let local_c2 = Math.max(0, 2 - 2*local_dot);
-          let local_h = earth_radius_km*Math.sqrt(local_c2)*(1 + local_c2/24);
-          let local_rx = raion_r[x];
-          let local_r2_sum = local_ri2 + local_rx*local_rx;
-          let local_r_eff = Math.sqrt(0.5*local_r2_sum);
-          let local_u = local_h/local_r_eff;
-          let local_v2 = local_u*inv_tau2;
-
-          if (local_v2 >= 7.99) continue;
-
-          let local_pref = (2*local_ri*local_rx)/local_r2_sum;
-          let local_m1 = 0;
-          let local_v1 = local_u*inv_tau1;
-
-          if (local_v1 < 7.99) {
-            let local_idx1 = (local_v1*lut_scale) | 0;
-            let local_frac1 = local_v1*lut_scale - local_idx1;
-
-            local_m1 = local_pref*(matern_lut[local_idx1]*(1 - local_frac1) + matern_lut[local_idx1 + 1]*local_frac1);
-          }
-
-          let local_idx2 = (local_v2*lut_scale) | 0;
-          let local_frac2 = local_v2*lut_scale - local_idx2;
-          let local_m2 = local_pref*(matern_lut[local_idx2]*(1 - local_frac2) + matern_lut[local_idx2 + 1]*local_frac2);
-
-          for (let p = 0; p < n_periods; p++)
-            z_acc[p] += all_w1_scaled[p][x]*local_m1 + all_w2_scaled[p][x]*local_m2;
-        }
-
-        //Freeman-Tukey power back-transformation D_hat(x) = max(0, Z_hat(x))^2.25 * land_area(x)
-        for (let p = 0; p < n_periods; p++) {
-          let local_z_restored = Math.max(0, all_mu[p] + all_var_restore[p]*z_acc[p]);
-
-          all_potentials[p][i] = local_area*Math.pow(local_z_restored, 2.25);
-        }
-      }
-
-      //Couple each period's smooth kriged residual field with its Log-Linear Residual Kriging biophysical + urban-masked HYDE 3.5 rural habitation trend
-      for (let i = 0; i < n_periods; i++) {
-        let local_field = new Float32Array(n_valid);
-        let local_file_path;
-        let local_final_sum = 0;
-        let local_model = kriging_models[period_configs[i].key];
         let local_period = period_configs[i];
         let local_pkey = local_period.key;
-        let local_pot = all_potentials[i];
-        let local_rk;
-        let local_target_sites = Math.max(1, local_model.total_sites);
-        let local_u_hab;
+        let local_model = kriging_models[local_pkey];
+        let local_field = dasy_surface.fields[local_pkey] || new Float32Array(n_valid);
 
-        local_u_hab = this.computeCompositeHabitationField(
-          mask_data,
-          raion_data,
-          bio_covs,
-          local_period,
-          config,
-          hab_cache
-        );
-        local_rk = this.computeResidualKrigingWeights(
-          mask_data,
-          raion_data,
-          bio_covs,
-          local_u_hab,
-          local_model.z_adj,
-          meso_smooth_px,
-          local_model.s_obs
-        );
-        period_wls_betas[local_pkey] = {
-          beta_0_hab: Number(local_rk.beta[0].toFixed(4)),
-          beta_1_nat: Number(local_rk.beta[1].toFixed(4)),
-          beta_2_eco: Number(local_rk.beta[2].toFixed(4)),
-          kappa_drift: local_rk.kappa_drift
-        };
-
-        for (let x = 0; x < n_valid; x++) {
-          let local_val = local_pot[x]*local_rk.weights[x];
-
-          local_field[x] = local_val;
-          local_final_sum += local_val;
-        }
-
-        //Exact conservation scaling to empirical period total S_total,p
-        let local_final_scale = (local_final_sum > 0) ? local_target_sites/local_final_sum : 1;
-
-        for (let x = 0; x < n_valid; x++)
-          local_field[x] = local_field[x]*local_final_scale;
-
+        period_wls_betas[local_pkey] = (dasy_surface.wls_betas_by_period && dasy_surface.wls_betas_by_period[local_pkey]) ?
+          dasy_surface.wls_betas_by_period[local_pkey] : null;
         local_field = this.applyWesternFrontierContinuity(mask_data, local_field, bio_covs, config, local_period);
+        if (dasy_hab) {
+          for (let x = 0; x < n_valid; x++)
+            if (dasy_hab[x] === 0) local_field[x] = 0;
+        }
+        let local_file_path = path.join(out_dir, local_period.filename);
 
-        local_file_path = path.join(out_dir, local_period.filename);
         this.writeMaskedFloat32GeoPNG(local_file_path, mask_data, local_field, config);
-
         kriged_fields[local_pkey] = local_field;
-        kriged_raw_potentials[local_pkey] = local_pot;
+        kriged_raw_potentials[local_pkey] = local_field;
         kriged_stats[local_pkey] = this.computeFieldQuantileStats(local_field, local_period.filename, local_model.total_sites);
       }
 
       //Return statement
       return {
         bio_covs: bio_covs,
+        dasy_surface: dasy_surface,
         hab_cache: hab_cache,
         kriged_fields: kriged_fields,
         kriged_raw_potentials: kriged_raw_potentials,
@@ -756,72 +656,48 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
         for (let x = 0; x < n_valid; x++)
           local_base_sum += local_base_dasy[x];
 
-        //Locate bracketing chronological horizons
-        if (local_year <= horizon_distributions[0].year) {
-          local_dist_a = horizon_distributions[0].dist;
-          local_dist_b = horizon_distributions[0].dist;
-          local_z_a = horizon_distributions[0].z_horizon;
-          local_z_b = horizon_distributions[0].z_horizon;
-          local_alpha = 0;
-        } else if (local_year >= horizon_distributions[horizon_distributions.length - 1].year) {
-          let local_last = horizon_distributions[horizon_distributions.length - 1];
+        if (kriged_results.dasy_surface && kriged_results.dasy_surface.residual_fields) {
+          if (!kriged_results._h_r_list) {
+            let h_r_list = [];
 
-          local_dist_a = local_last.dist;
-          local_dist_b = local_last.dist;
-          local_z_a = local_last.z_horizon;
-          local_z_b = local_last.z_horizon;
-          local_alpha = 0;
-        } else {
-          for (let x = 0; x < horizon_distributions.length - 1; x++) {
-            let local_a = horizon_distributions[x];
-            let local_b = horizon_distributions[x + 1];
+            for (let h_i = 0; h_i < horizon_configs.length; h_i++) {
+              let act_p = horizon_configs[h_i].active_periods || [];
+              let r_h = new Float32Array(n_valid);
+              let w_sum = 0;
 
-            if (local_year >= local_a.year && local_year <= local_b.year) {
-              local_dist_a = local_a.dist;
-              local_dist_b = local_b.dist;
-              local_z_a = local_a.z_horizon;
-              local_z_b = local_b.z_horizon;
-              local_alpha = (local_year - local_a.year)/Math.max(1, local_b.year - local_a.year);
-              break;
+              for (let y_i = 0; y_i < act_p.length; y_i++) {
+                let rf = kriged_results.dasy_surface.residual_fields[act_p[y_i]];
+
+                if (!rf) continue;
+                let wt = Math.max(1, period_totals[act_p[y_i]] || 1);
+
+                for (let x = 0; x < n_valid; x++) r_h[x] += wt*rf[x];
+                w_sum += wt;
+              }
+              if (w_sum > 0)
+                for (let x = 0; x < n_valid; x++) r_h[x] /= w_sum;
+              h_r_list.push({ r: r_h, year: horizon_configs[h_i].year });
             }
+            h_r_list.sort(function (arg0_a, arg1_b) { return arg0_a.year - arg1_b.year; });
+            kriged_results._h_r_list = h_r_list;
           }
+          pop_field = ViscountDasymetricResidualSolver.E_evaluatePolarisYearField(
+            kriged_results.dasy_surface,
+            kriged_results._h_r_list,
+            local_year,
+            local_base_sum
+          );
+          pop_field = this.applyWesternFrontierContinuity(mask_data, pop_field, bio_covs, config, local_year);
+          let hab_m = kriged_results.dasy_surface.bio_covs.hab_mask;
+
+          if (hab_m) {
+            for (let x = 0; x < n_valid; x++)
+              if (hab_m[x] === 0) pop_field[x] = 0;
+          }
+        } else {
+          //Fallback legacy path
+          for (let x = 0; x < n_valid; x++) pop_field[x] = local_base_dasy[x];
         }
-
-        for (let x = 0; x < n_raions; x++)
-          local_z_year[x] = (1 - local_alpha)*local_z_a[x] + local_alpha*local_z_b[x];
-        for (let x = 0; x < n_valid; x++)
-          local_arch_pot[x] = (1 - local_alpha)*local_dist_a[x] + local_alpha*local_dist_b[x];
-
-        local_u_hab = this.computeDeCliffedHabitationField(
-          mask_data,
-          raion_data,
-          bio_covs,
-          local_year,
-          config,
-          hab_cache
-        );
-        local_rk = this.computeResidualKrigingWeights(
-          mask_data,
-          raion_data,
-          bio_covs,
-          local_u_hab,
-          local_z_year,
-          meso_smooth_px
-        );
-
-        for (let x = 0; x < n_valid; x++) {
-          let local_val = local_arch_pot[x]*local_rk.weights[x];
-
-          pop_field[x] = local_val;
-          local_final_sum += local_val;
-        }
-
-        //Scale to exact Russia (excl. Kaliningrad) + Crimea urban-masked HYDE 3.5 rural substrata total P_total(t)
-        local_scale = (local_final_sum > 0) ? local_base_sum/local_final_sum : 0;
-        for (let x = 0; x < n_valid; x++)
-          pop_field[x] = pop_field[x]*local_scale;
-
-        pop_field = this.applyWesternFrontierContinuity(mask_data, pop_field, bio_covs, config, local_year);
 
         local_out_path = path.join(out_dir, `popc_${local_year}.png`);
         this.writeMaskedFloat32GeoPNG(local_out_path, mask_data, pop_field, config);
@@ -930,7 +806,12 @@ let SitesIARASObservationUtils = require("./SitesIARASObservationUtils.js");
         population_quantile_diagnostics: interp_results.population_quantiles,
         population_rasters_subfolder: config.output_population_rasters_subfolder,
         population_substrata_series: interp_results.population_series,
-        variogram_models: variogram_models
+        raw_tau1_dimensionless: Number(kriging_bundle.tau1_dimensionless.toFixed(4)),
+        tau1_dimensionless: Number(kriging_bundle.tau1_dimensionless.toFixed(4)),
+        tau2_dimensionless: Number(kriging_bundle.tau2_dimensionless.toFixed(4)),
+        urban_mask_applied: true,
+        variogram_models: variogram_models,
+        wls_covariates_active: true
       };
       fs.writeFileSync(metadata_path, JSON.stringify(metadata_obj, null, 2), "utf8");
 

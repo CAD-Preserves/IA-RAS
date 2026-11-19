@@ -25,20 +25,36 @@
   // while adding in Crimea (Republic of Crimea + Sevastopol), with a strict 1900 AD cutoff.
   kriging_config: {
     coastal_bfs_max_distance_px: 8,
+    elevation_barrier_m: 550,
+    habitability_filter: {
+      arctic_lat_cut: 59.5,
+      extreme_elev_cut_m: 3200.0,
+      hyde_core_min_dens: 0.004,
+      hyde_marginal_min_dens: 0.14,
+      site_radius_px: 1.8,
+      stadester_max_first_year: 1900,
+      stadester_radius_px: 2.0
+    },
+    hu_admixture_config: "histmap/3.data_transform/population_Substrata.viscount/config/polaris_dasymetric_admixture.json5",
+    residual_kriging_mode: "hu_hyde_residual",
     covariate_paths: {
+      documented_settlements_json: "histmap/1.data_raw/population_regional/POLARIS/_shared/sites_IA_RAS/config/documented_settlements.json",
+      documented_site_pixels_json: "histmap/1.data_raw/population_regional/POLARIS/_shared/sites_IA_RAS/config/documented_site_pixels.json",
       forest_asc: "histmap/1.data_raw/metadata_HYDE/general_files/forest_wwf_cr.asc",
       hyde_mcevedy_rasters_folder: "histmap/2.data_cleaning/landuse_HYDE/rasters_mcevedy",
       hyde_popc_folder: "histmap/2.data_cleaning/landuse_HYDE/rasters_scaled_to_global",
       hyde_raw_rasters_folder: "histmap/2.data_cleaning/landuse_HYDE/rasters",
       hyde_uopp_raster: "histmap/2.data_cleaning/landuse_HYDE/rasters/uopp_2023AD.png",
       kk10_fallback_folder: "histmap/2.data_cleaning/population_KK10LUH2/rasters_KK10LUH2_2._global_scaling",
+      lakes_geojson: "histmap/1.data_raw/population_regional/POLARIS/_shared/_gis_cache/ne_10m_lakes.geojson",
       maxln_asc: "histmap/1.data_raw/metadata_HYDE/general_files/maxln_cr.asc",
       nelson_regions_png: "histmap/2.data_cleaning/population_KK10LUH2/config/nelson_regions.png",
+      rivers_geojson: "histmap/1.data_raw/population_regional/_shared/_gis_cache/ne_10m_rivers_lake_centerlines.geojson",
       sub_iso_asc: "histmap/1.data_raw/metadata_HYDE/general_files/sub_iso_cr.asc",
-      urban_mask_buffer_radius: 1,
-      urban_mask_inpaint_radius: 4,
+      urban_mask_buffer_radius: 2,
+      urban_mask_inpaint_radius: 5,
       urban_outlier_spike_ratio: 8.0,
-      urban_uopp_threshold: 10.0
+      urban_uopp_threshold: 8.0
     },
     crimea_bbox: {
       max_lat: 46.23,

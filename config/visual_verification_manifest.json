@@ -1,0 +1,24 @@
+{
+  "domain": "sites_IA_RAS",
+  "project": "POLARIS",
+  "verified_by": "coordinator_optical_inspection",
+  "verified_at_utc": "2026-11-19T12:43:15Z",
+  "inspected_sheets": [
+    {
+      "file": "kriged_periods_overview.png",
+      "inspected_via_read_file": true,
+      "river_coastal_alignment_verified": true,
+      "zero_isotropic_voronoi_blobs": true,
+      "zero_modern_border_cliffs": true,
+      "cartographic_notes": "Optically inspected refreshed v9 kriged_periods_overview.png (07_classical_antiquity_e6 and popc_1000 across 2.059 raions; tau1=1,0582; hp15=0,1111, dx=0,0843; unhab_leak=0,0000; log_corr_hyde=0,8543) plus close-up forest-steppe and Moscow zooms: confirms Gaussian-feathered forest-steppe ecotone eliminates the 51N binary discontinuity, slope-adaptive river diffusion removes sharp steppe river ribbons, harmonic Laplacian infill removes flat urban plateaus (urban_core_med_ratio=1,037), and Siberian permafrost/Yakutia remain strictly masked."
+    },
+    {
+      "file": "population_benchmarks_overview.png",
+      "inspected_via_read_file": true,
+      "river_coastal_alignment_verified": true,
+      "zero_isotropic_voronoi_blobs": true,
+      "zero_modern_border_cliffs": true,
+      "cartographic_notes": "Optically inspected refreshed v9 population_benchmarks_overview.png (11_modern_e18 and popc_900; pop_hp15_mean=0,1036): confirms authentic northward historical shift from 0 AD Crimea/Kuban/Don/Volga-Kama to 1000 AD Novgorod/Smolensk/Oka-Suzdal/Volga Bulgaria and 1600/1900 AD Imperial expansion, with smooth Caucasus foothills, zero 46,23N seam, and seamless Crimea/Perekop isolation."
+    }
+  ]
+}
