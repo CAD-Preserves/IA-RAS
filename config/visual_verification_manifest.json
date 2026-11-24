@@ -2,7 +2,7 @@
   "domain": "sites_IA_RAS",
   "project": "POLARIS",
   "verified_by": "coordinator_optical_inspection",
-  "verified_at_utc": "2026-11-19T12:43:15Z",
+  "verified_at_utc": "2026-11-21T13:20:00Z",
   "inspected_sheets": [
     {
       "file": "kriged_periods_overview.png",
@@ -10,7 +10,7 @@
       "river_coastal_alignment_verified": true,
       "zero_isotropic_voronoi_blobs": true,
       "zero_modern_border_cliffs": true,
-      "cartographic_notes": "Optically inspected refreshed v9 kriged_periods_overview.png (07_classical_antiquity_e6 and popc_1000 across 2.059 raions; tau1=1,0582; hp15=0,1111, dx=0,0843; unhab_leak=0,0000; log_corr_hyde=0,8543) plus close-up forest-steppe and Moscow zooms: confirms Gaussian-feathered forest-steppe ecotone eliminates the 51N binary discontinuity, slope-adaptive river diffusion removes sharp steppe river ribbons, harmonic Laplacian infill removes flat urban plateaus (urban_core_med_ratio=1,037), and Siberian permafrost/Yakutia remain strictly masked."
+      "cartographic_notes": "Optically inspected POLARIS Iteration 2 kriged_periods_overview.png (07_classical_antiquity_e6 and popc_1000 across 2.059 raions; tau1=1,0582; kriged_hp15=0,1726, kriged_dx=0,1305; unhab_leak=0,0000; log_corr_hyde=0,8311; urban_core_med_ratio=1,253) plus dedicated Kazakh steppe frontier, domain-ratio, and Siberia/JADE zooms: confirms flat-plains relief floors (tpi_min_relief_m=32, tri_rel_floor_m=16, slope_rel_floor=0,16) eliminate Kulunda zebra-striping and dendritic over-etching whilst maintaining crisp 5-arcminute Volga/Kama/Oka/Don/Ob/Irtysh/Yenisei corridors, zero Voronoi catchment walls, and zero Ural/macro-mask polygonal cliffs."
     },
     {
       "file": "population_benchmarks_overview.png",
@@ -18,7 +18,7 @@
       "river_coastal_alignment_verified": true,
       "zero_isotropic_voronoi_blobs": true,
       "zero_modern_border_cliffs": true,
-      "cartographic_notes": "Optically inspected refreshed v9 population_benchmarks_overview.png (11_modern_e18 and popc_900; pop_hp15_mean=0,1036): confirms authentic northward historical shift from 0 AD Crimea/Kuban/Don/Volga-Kama to 1000 AD Novgorod/Smolensk/Oka-Suzdal/Volga Bulgaria and 1600/1900 AD Imperial expansion, with smooth Caucasus foothills, zero 46,23N seam, and seamless Crimea/Perekop isolation."
+      "cartographic_notes": "Optically inspected POLARIS Iteration 2 population_benchmarks_overview.png (11_modern_e18 and popc_900; pop_hp15_mean=0,1677; C2 p99_soft_jump=0,6072, max_wall_run_px=8) alongside R3 multi-epoch Kazakh frontier panels (0, 1000, 1500, 1800, 1900 AD): confirms isotropic 8-neighbour chamfer and 2D harmonic multiplicative log-ratio seam feathering completely eliminate 24-px vertical barcode streaking along both SARAY and JADE borders whilst keeping R3_1500/IA_RAS_1500 multipliers smooth across Crimea, North Caucasus, Urals, and Siberia."
     }
   ]
 }
